@@ -12,7 +12,7 @@ This project is a basic confrence website that shows details about the agenda of
 
 | **Contributors** | **Role** |
 | ----------- | ----------- |
-| [Adegoke Fuad](https://github.com/ALIPHATICHYD) | Design and Development |
+| [ALIPHATIC👽](https://github.com/ALIPHATICHYD) | Design and Development |
 
 
 ## To Contribute here(Version control) 🛠️
