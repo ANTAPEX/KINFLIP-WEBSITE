@@ -18,7 +18,7 @@ This project is a basic confrence website that shows details about the agenda of
 ## To Contribute here(Version control) 🛠️
  Step 1: Click on Fork at the top right corner Step; </br>
  Step 2: Clone your forked repository; </br>
- Step 3: cd into the cloned folder | GrowersBrains; </br>
+ Step 3: cd into the cloned folder; </br>
  Step 4: ```git remote add upstream https://github.com/ANTAPEX/KINFLIP-WEBSITE```  </br>
  Step 5: ```git pull upstream "branch"```  </br>
  Step 6: Check out to the task/feature branch | ```git checkout -b <NAME_OF_THE_TASK>```
