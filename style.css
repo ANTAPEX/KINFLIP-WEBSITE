@@ -14,12 +14,16 @@
 }
 
 main{
+    background-color: #121212;
+    padding: 1rem 0;
+}
+.top-main{
     width: 91vw;
     background-color: black;
     margin: auto;
 }
 
-.top-main{
+.top-main-flex{
     display: flex;
     justify-content: space-between;
     color: #fff;
