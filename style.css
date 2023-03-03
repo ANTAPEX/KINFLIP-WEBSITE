@@ -3,3 +3,47 @@
     margin: 0;
     padding: 0;
 }
+
+/* BEGINNING OF GENTLMIZT'S CONTRIBUTIONS */
+:root{
+    --pry-yellow: #FFBC01;
+}
+
+.html{
+    font-size: 10px;
+}
+
+main{
+    width: 91vw;
+    background-color: black;
+    margin: auto;
+}
+
+.top-main{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 1rem;
+}
+
+.top-main div{
+    text-align: center;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: var(--pry-yellow);
+    color: #fff;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.circle span{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 1rem;
+   font-size: 1.3rem; 
+}
+
+/* ENDING OF GENTLEMIZT'S CONTRIBUTIONS */
