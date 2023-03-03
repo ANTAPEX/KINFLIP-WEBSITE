@@ -16,6 +16,7 @@ This project is a basic confrence website that shows details about the agenda of
 | [ʟᴀɴᴄᴇʀ](https://github.com/GentleMizt) | Development |
 | [Temi Tade](https://github.com/Temi-Tade) | Development |
 | [Sabit Sadiq](https://github.com/sabitsadiq) | Development |
+| [Dohou Daniel Favour](https://github.com/dohoudaniel) | Development |
 
 
 ## To Contribute here(Version control) 🛠️
