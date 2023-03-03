@@ -13,6 +13,8 @@ This project is a basic confrence website that shows details about the agenda of
 | **Contributors** | **Role** |
 | ----------- | ----------- |
 | [ALIPHATIC👽](https://github.com/ALIPHATICHYD) | Design and Development |
+| [Mapelujo AbdulKareem](https://github.com/GentleMizt) | Development |
+| [Temi Tade](https://github.com/Temi-Tade) | Development |
 
 
 ## To Contribute here(Version control) 🛠️
