@@ -30,7 +30,7 @@ This project is a basic confrence website that shows details about the agenda of
 
 ## Brief Sitemap💬 <hr>
 
-## Landing Page 🛬
+## Landing Page🛬
 The landing page contains the basic details of the company. These includes:
 * About
 * Speakers
@@ -40,6 +40,13 @@ The landing page contains the basic details of the company. These includes:
 * Frequently Asked Questions
 * Footer
 
+## FAQ⁉️ Page
+This page contains the timer countdown to the event and the frequently asked questions about the event.
 
+## Regiter as an Attendee👔 Page
+This page contains the timer countdown to the event and the registration form for the user that are willing to speak at the event.
+
+## Register as a Speaker🗣️ Page
+This page contains the timer countdown to the event and the registration form for the user that are willing to attend the event
 
 [Link to view the Website Design on Figma](https://www.figma.com/file/GWLd3JUZDQxVUd0kKwfnLS/KINFLIP?node-id=0%3A1&t=0n74HqBOyuMgTDqE-0)
