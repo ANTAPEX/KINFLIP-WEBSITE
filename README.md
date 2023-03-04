@@ -14,7 +14,7 @@ This project is a basic confrence website that shows details about the agenda of
 | ----------- | ----------- |
 | [ALIPHATIC👽](https://github.com/ALIPHATICHYD) | Design and Development |
 | [ʟᴀɴᴄᴇʀ](https://github.com/GentleMizt) | Development |
-| [Temi Tade](https://github.com/Temi-Tade) | Development |
+| [Akintade Temiloluwa](https://github.com/Temi-Tade) | Development |
 | [Sabit Sadiq](https://github.com/sabitsadiq) | Development |
 | [Dohou Daniel Favour](https://github.com/dohoudaniel) | Development |
 
