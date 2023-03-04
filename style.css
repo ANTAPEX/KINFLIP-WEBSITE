@@ -50,4 +50,18 @@ main{
    font-size: 1.3rem; 
 }
 
+.middle-main{
+    color: #fff;
+    width: 91vw;
+    margin: auto;
+}
+
+.speaker-head{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.speaker-child h2, p{
+    /* text-align: center; */
+}
 /* ENDING OF GENTLEMIZT'S CONTRIBUTIONS */
