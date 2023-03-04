@@ -61,7 +61,15 @@ main{
     margin: 2rem 0;
 }
 
-.speaker-child h2, p{
-    /* text-align: center; */
+.speaker-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+.speaker-child h2{
+    margin: .4rem 0;
+}
+.speaker-child p{
+    margin-bottom: 1rem;
 }
 /* ENDING OF GENTLEMIZT'S CONTRIBUTIONS */
