@@ -23,9 +23,9 @@ This project is a basic confrence website that shows details about the agenda of
  Step 1: Click on Fork at the top right corner Step; </br>
  Step 2: Clone your forked repository; </br>
  Step 3: cd into the cloned folder; </br>
- Step 4: ```git remote add upstream https://github.com/ANTAPEX/KINFLIP-WEBSITE```  </br>
- Step 5: ```git pull upstream "branch"```  </br>
- Step 6: Check out to the task/feature branch | ```git checkout -b <NAME_OF_THE_TASK>```
+ Step 4: comit your changes to your forked repository </br>
+ Step 5: contribute and create a pull-request  </br>
+ Step 6: wait for your pull-request to be merged.
 
 
 
