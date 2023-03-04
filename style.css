@@ -84,4 +84,21 @@ main{
 .gallery-head{
     text-align: center;
 }
+
+.gallery-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 91vw;
+    margin: auto;
+    gap: none;
+}
+
+.img-div{
+    width: 90%;
+}
+
+.img-div img{
+    width: 100%;
+}
 /* ENDING OF GENTLEMIZT'S CONTRIBUTIONS */
