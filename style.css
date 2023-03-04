@@ -66,10 +66,22 @@ main{
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
 }
+
 .speaker-child h2{
     margin: .4rem 0;
 }
+
 .speaker-child p{
     margin-bottom: 1rem;
+    font-size: .8rem;
+}
+
+.gallery{
+    color: #fff;
+    margin-top: 4rem;
+}
+
+.gallery-head{
+    text-align: center;
 }
 /* ENDING OF GENTLEMIZT'S CONTRIBUTIONS */
