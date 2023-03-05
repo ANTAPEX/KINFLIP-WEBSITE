@@ -121,9 +121,11 @@ main{
     color: #fff;
     outline: 0;
     border: none;
+    border: 1px solid blue;
   }
   .arrow-div img{
-    /* border: 1px solid red; */
-    color: #fff;
+    border: 1px solid red;
+    width: 80%;
+
   }
 /* ENDING OF GENTLEMIZT'S CONTRIBUTIONS */
