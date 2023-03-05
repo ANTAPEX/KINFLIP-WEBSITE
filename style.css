@@ -96,7 +96,6 @@ main{
   
   .img-div {
     width: 100%;
-    /* border: 1px solid red; */
     overflow: hidden;
   }
   
@@ -104,5 +103,29 @@ main{
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  .gallery-btn{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 9%;
+    margin: auto;
+    border: 1px solid var(--pry-yellow);
+    border-radius: .6rem;
+    padding: .5rem 1rem;
+  }
+
+  .gallery-btn span{
+    background-color: black;
+    color: var(--pry-yellow);
+    outline: 0;
+    border: none;
+  }
+
+  .arrow-div img{
+    width: 80%;
+    margin-top: .3rem;
   }
 /* ENDING OF GENTLEMIZT'S CONTRIBUTIONS */
