@@ -85,20 +85,24 @@ main{
     text-align: center;
 }
 
-.gallery-grid{
+.gallery-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(4, minmax(0, auto));
+    gap: .5rem;
     width: 91vw;
-    margin: auto;
-    gap: none;
-}
-
-.img-div{
-    width: 90%;
-}
-
-.img-div img{
+    margin: 3rem auto 0 auto;
+  }
+  
+  .img-div {
     width: 100%;
-}
+    /* border: 1px solid red; */
+    overflow: hidden;
+  }
+  
+  .img-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 /* ENDING OF GENTLEMIZT'S CONTRIBUTIONS */
