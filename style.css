@@ -109,6 +109,7 @@ main{
     color: #fff;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 9%;
     margin: auto;
     border: 1px solid var(--pry-yellow);
@@ -116,16 +117,15 @@ main{
     padding: .5rem 1rem;
   }
 
-  .gallery-btn button{
+  .gallery-btn span{
     background-color: black;
-    color: #fff;
+    color: var(--pry-yellow);
     outline: 0;
     border: none;
-    border: 1px solid blue;
   }
-  .arrow-div img{
-    border: 1px solid red;
-    width: 80%;
 
+  .arrow-div img{
+    width: 80%;
+    margin-top: .3rem;
   }
 /* ENDING OF GENTLEMIZT'S CONTRIBUTIONS */
