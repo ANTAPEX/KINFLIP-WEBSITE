@@ -105,7 +105,12 @@ main{
     object-fit: cover;
   }
 
-  .gallery button{
-    
+  .gallery-btn{
+    color: #fff;
+  }
+
+  .arrow-div img{
+    border: 1px solid red;
+    color: #fff;
   }
 /* ENDING OF GENTLEMIZT'S CONTRIBUTIONS */
