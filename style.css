@@ -107,10 +107,23 @@ main{
 
   .gallery-btn{
     color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 9%;
+    margin: auto;
+    border: 1px solid var(--pry-yellow);
+    border-radius: .6rem;
+    padding: .5rem 1rem;
   }
 
+  .gallery-btn button{
+    background-color: black;
+    color: #fff;
+    outline: 0;
+    border: none;
+  }
   .arrow-div img{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     color: #fff;
   }
 /* ENDING OF GENTLEMIZT'S CONTRIBUTIONS */
