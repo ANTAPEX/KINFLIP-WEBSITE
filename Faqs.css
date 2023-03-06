@@ -1,0 +1,510 @@
+/* FAQS Styles
+************************************************/
+
+/* General 
+**********************************/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --yellow: #FFBC01;
+    --box-color: #122740;
+    --box2:  rgba(18, 39, 64, 0.4);
+    --box3: rgba(0, 0, 0, 0.8);
+    --background: #121212;
+    --border: #FFFBFF;
+}
+
+main {
+    background: var(--background);
+    
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 12px;
+    gap: 24px;
+/* 
+    width: 1255px;
+    height: 296px; */
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+@media screen and (max-width: 1440px){
+    /* heading section 
+    *****************************************/
+    .heading {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 24px 12px;
+        gap: 74px;
+
+        width: 90%;
+        height: 248px;
+
+        background: var(--box3);
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .timer{
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 12px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 1;
+    }
+
+    .timer h2{
+        width: 405px;
+        height: 104px;
+
+        /* material-theme/display/medium */
+
+        font-family: 'Lora';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 52px;
+        text-align: center;
+        
+        /* Primary */
+
+        color: var(--yellow);
+        margin: 0 auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 1;
+    }
+
+    .comp {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        padding: 0px;
+        gap: 12px;
+
+        width: 288px;
+        height: 84px;
+        margin: 0 auto;
+    }
+
+    .row {
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 4px;
+
+        width: 88px;
+        height: 84px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0
+    }
+
+    .col {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 4px;
+
+        width: 88px;
+        height: 64px;
+    }
+
+    .row h3 {
+        width: 29px;
+        height: 16px;
+
+        /* material-theme/label/medium */
+
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+
+        text-align: center;
+        letter-spacing: 0.5px;
+
+        /* white */
+
+        color: #FFFFFF;
+    }
+
+    .box {
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        gap: 10px;
+
+        width: 42px;
+        height: 64px;
+
+        background: var(--box-color);
+    }
+
+    .box- {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+        gap: 10px;
+
+        width: 42px;
+        height: 64px;
+
+        background: var(--box2);
+    }
+
+    .box p, .box- p {
+        width: 22px;
+        height: 44px;
+
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 44px;
+        /* identical to box height, or 122% */
+
+        text-align: center;
+
+        /* Base / White */
+
+        color: #FFFFFF;
+    }
+
+    /* FAQS section 
+    *****************************************/
+    .FAQ {
+        display: flex;
+        flex-direction: column;
+        /* align-items: flex-start; */
+        padding: 0px;
+        gap: 24px;
+
+        /* width: 1240px; */
+        height: 456px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .FAQ .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 4px;
+
+        /* width: 1240px; */
+        height: 76px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .FAQ .header h2 {
+        /* width: 1240px; */
+        height: 40px;
+
+        /* material-theme/headline/large */
+
+        font-family: 'Lora';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        /* identical to box height, or 125% */
+
+        text-align: center;
+
+        /* material-theme/ref/neutral/neutral100 */
+
+        color: #FFFFFF;
+    }
+
+    .FAQ .header p {
+        /* width: 1240px; */
+        height: 32px;
+
+        font-family: 'Lora';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        /* identical to box height, or 160% */
+
+        text-align: center;
+
+        /* material-theme/ref/neutral/neutral100 */
+
+        color: #FFFFFF;
+    }
+
+    /* questions 
+    ******************/
+    .questions {
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+
+        /* width: 1240px; */
+        height: 356px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .component {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 12px 24px;
+        gap: 8px;
+
+        width: 397px;
+        height: 52px;
+
+        border: 1px solid var(--border);
+        border-radius: 8px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .component p {
+        display: none;
+        width: 349px;
+        height: 32px;
+
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+
+        /* material-theme/ref/neutral/neutral95 */
+
+        color: #F8EFE7;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .frame {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 3px;
+
+        width: 349px;
+        height: 28px;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .frame h3 {
+        width: 221px;
+        height: 28px;
+
+        /* material-theme/title/large */
+
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        /* identical to box height, or 127% */
+
+
+        /* white */
+
+        color: #FFFFFF;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .chevron {
+        width: 24px;
+        height: 24px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .chevron .arrow {
+        /* Icon */
+        margin-top: 6px;
+    }
+
+    /* answer styles
+    **************************************/
+    .answer {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 12px 24px;
+        gap: 8px;
+
+        width: 397px;
+        height: 108px;
+        left: 20px;
+        top: 72px;
+
+        border: 1px solid #FFFBFF;
+        border-radius: 8px;
+
+    }
+
+    .answer .icon {
+        /* Icon */
+
+        left: 25%;
+        right: 25%;
+        top: 37.5%;
+        bottom: 37.5%;
+
+        border: 2px solid #FFFFFF;
+        transform: rotate(-90deg);
+
+    }
+
+    .chevron- {
+        width: 24px;
+        height: 24px;
+
+        transform: rotate(90deg);
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .answer p {
+        width: 349px;
+        height: 48px;
+
+        /* material-theme/title/medium */
+
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        letter-spacing: 0.15px;
+
+        /* material-theme/ref/neutral/neutral95 */
+
+        color: #F8EFE7;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .chevron- .arrow {
+        /* Icon */
+        margin-left: 10px;
+    }
+}
