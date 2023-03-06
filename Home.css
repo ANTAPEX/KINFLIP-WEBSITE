@@ -128,4 +128,24 @@ main{
     width: 80%;
     margin-top: .3rem;
   }
+
+  .nominee{
+    color: #fff;
+    margin-top: 4rem;
+    text-align: center;
+  }
+
+  .nominee-head p{
+    margin: .2rem 0;
+  }
+
+  .nominee-btn{
+    background-color: var(--pry-yellow);
+    color: #fff;
+    width: 10vw;
+    text-align: center;
+    border-radius: .35rem;
+    margin: 1rem auto;
+    padding: .5rem 1rem;
+}
 /* ENDING OF GENTLEMIZT'S CONTRIBUTIONS */
