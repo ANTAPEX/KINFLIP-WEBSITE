@@ -160,13 +160,20 @@ main{
 .nominee-card{
     display: flex;
     flex-direction: column;
+    border-top-right-radius: .6rem;
+    border-top-left-radius: .6rem;
 }
 
 .nominee-card img{
     width: 100%;
+    border-top-right-radius: .6rem;
+    border-top-left-radius: .6rem;
 }
 .container{
     background-color: #fff;
     color: black;
+    border-bottom-left-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+
 }
 /* ENDING OF GENTLEMIZT'S CONTRIBUTIONS */
