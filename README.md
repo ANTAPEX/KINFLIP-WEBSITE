@@ -18,7 +18,7 @@ This project is a basic confrence website that shows details about the agenda of
 | [Sabit Sadiq](https://github.com/sabitsadiq) | Development |
 | [Dohou Daniel Favour](https://github.com/dohoudaniel) | Development |
 | [Aderonmu Judah](https://github.com/aderonmujudah) | Development |
-| [Omoyeni Victory](https://github.com/preciousvictory) | Development |
+| [Abiodun-Omoniyi Victory](https://github.com/preciousvictory) | Development |
 
 
 ## To Contribute here(Version control) 🛠️
