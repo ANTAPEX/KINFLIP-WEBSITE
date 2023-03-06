@@ -148,4 +148,12 @@ main{
     margin: 1rem auto;
     padding: .5rem 1rem;
 }
+
+.nominee-grid{
+    display: grid;
+}
+.container{
+    background-color: #fff;
+    color: black;
+}
 /* ENDING OF GENTLEMIZT'S CONTRIBUTIONS */
