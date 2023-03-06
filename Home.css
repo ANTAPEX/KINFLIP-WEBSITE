@@ -1,172 +1,210 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
 
-/* BEGINNING OF GENTLMIZT'S CONTRIBUTIONS */
-:root{
-    --pry-yellow: #FFBC01;
-}
+    /* BEGINNING OF LANCER'S CONTRIBUTIONS */
+    :root{
+        --pry-yellow: #FFBC01;
+    }
 
-.html{
-    font-size: 10px;
-}
+    .html{
+        font-size: 10px;
+    }
 
-main{
-    background-color: #121212;
-    padding: 1rem 0;
-}
-.top-main{
-    width: 91vw;
-    background-color: black;
-    margin: auto;
-}
+    main{
+        background-color: #121212;
+        padding: 1rem 0;
+    }
+    .top-main{
+        width: 85vw;
+        background-color: black;
+        margin: auto;
+    }
 
-.top-main-flex{
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-    padding: 1rem;
-}
+    .top-main-flex{
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        padding: 1rem;
+    }
 
-.top-main div{
-    text-align: center;
-}
+    .top-main div{
+        text-align: center;
+    }
 
-.circle{
-    border-radius: 50%;
-    background-color: var(--pry-yellow);
-    color: #fff;
-    width: 3.5rem;
-    height: 3.5rem;
-}
+    .circle{
+        border-radius: 50%;
+        background-color: var(--pry-yellow);
+        color: #fff;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
 
-.circle span{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   padding-top: 1rem;
-   font-size: 1.3rem; 
-}
+    .circle span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1rem;
+        font-size: 1.3rem; 
+    }
 
-.middle-main{
-    color: #fff;
-    width: 91vw;
-    margin: auto;
-}
+    .middle-main{
+        color: #fff;
+        width: 85vw;
+        margin: auto;
+    }
 
-.speaker-head{
-    text-align: center;
-    margin: 2rem 0;
-}
+    .speaker-head{
+        text-align: center;
+        margin: 2rem 0;
+    }
 
-.speaker-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    text-align: center;
-}
+    .speaker-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 88vw;
+        margin: auto;
+        gap: 1.5rem;
+        text-align: center;
+    }
 
-.speaker-child h2{
-    margin: .4rem 0;
-}
+    .speaker-child img{
+        width: 100%;
+    }
 
-.speaker-child p{
-    margin-bottom: 1rem;
-    font-size: .8rem;
-}
+    .speaker-child h2{
+        margin: .4rem 0;
+    }
 
-.gallery{
-    color: #fff;
-    margin-top: 4rem;
-}
+    .speaker-child p{
+        margin-bottom: 1rem;
+        font-size: .8rem;
+    }
 
-.gallery-head{
-    text-align: center;
-}
+    .gallery{
+        color: #fff;
+        margin-top: 4rem;
+    }
 
-.gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, minmax(0, auto));
-    gap: .5rem;
-    width: 91vw;
-    margin: 3rem auto 0 auto;
-  }
-  
-  .img-div {
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  .img-div img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+    .gallery-head{
+        text-align: center;
+    }
 
-  .gallery-btn{
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 9%;
-    margin: auto;
-    border: 1px solid var(--pry-yellow);
-    border-radius: .6rem;
-    padding: .5rem 1rem;
-  }
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, minmax(0, auto));
+        gap: .5rem;
+        width: 85vw;
+        margin: 3rem auto 0 auto;
+    }
+    
+    .img-div {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .img-div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 
-  .gallery-btn span{
-    background-color: black;
-    color: var(--pry-yellow);
-    outline: 0;
-    border: none;
-  }
+    .gallery-btn{
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 9%;
+        margin: auto;
+        border: 1px solid var(--pry-yellow);
+        border-radius: .6rem;
+        padding: .5rem 1rem;
+    }
 
-  .arrow-div img{
-    width: 80%;
-    margin-top: .3rem;
-  }
+    .gallery-btn span{
+        background-color: black;
+        color: var(--pry-yellow);
+        outline: 0;
+        border: none;
+    }
 
-  .nominee{
-    color: #fff;
-    margin-top: 4rem;
-    width: 81vw;
-    margin: 2rem auto;
-    text-align: center;
-  }
+    .arrow-div img{
+        width: 80%;
+        margin-top: .3rem;
+    }
 
-  .nominee-head p{
-    margin: .2rem 0;
-  }
+    .nominee{
+        color: #fff;
+        margin-top: 4rem;
+        width: 85vw;
+        margin: 2rem auto;
+        text-align: center;
+    }
 
-  .nominee-btn{
-    background-color: var(--pry-yellow);
-    color: #fff;
-    width: 10vw;
-    text-align: center;
-    border-radius: .35rem;
-    margin: 1rem auto;
-    padding: .5rem 1rem;
-}
+    .nominee-head p{
+        margin: .2rem 0;
+    }
 
-.nominee-grid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.3rem;
-}
+    .nominee-btn{
+        background-color: var(--pry-yellow);
+        color: #fff;
+        width: 10vw;
+        text-align: center;
+        border-radius: .35rem;
+        margin: 2rem auto;
+        padding: .5rem 1rem;
+    }
 
-.nominee-card{
-    display: flex;
-    flex-direction: column;
-}
+    .nominee-grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.3rem;
+        width: 85vw;
+    }
 
-.nominee-card img{
-    width: 100%;
-}
-.container{
-    background-color: #fff;
-    color: black;
-}
-/* ENDING OF GENTLEMIZT'S CONTRIBUTIONS */
+    .nominee-card{
+        display: flex;
+        flex-direction: column;
+        border-top-right-radius: .6rem;
+        border-top-left-radius: .6rem;
+    }
+
+    .nominee-card img{
+        width: 100%;
+        border-top-right-radius: .6rem;
+        border-top-left-radius: .6rem;
+    }
+    .container{
+        background-color: #fff;
+        color: black;
+        border-bottom-left-radius: .6rem;
+        border-bottom-right-radius: .6rem;
+    }
+
+    .register-section{
+        background-color: #122740;
+        text-align: center;
+        padding: 2rem 0;
+        width: 85vw;
+        margin: 4rem auto;
+    }
+
+    .register-head{
+        color: #fff;
+    }
+
+    .register-head h3{
+        margin-bottom: 1rem;
+        font-size: 1.8rem;
+    }
+
+    .register-head p{
+        margin-bottom: 1rem;
+        line-height: 1.2rem;
+    }
+
+
+/* ENDING OF LANCER'S CONTRIBUTIONS */
