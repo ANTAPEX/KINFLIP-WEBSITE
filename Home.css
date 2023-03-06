@@ -178,5 +178,10 @@ main{
 
 .register-section{
     background-color: #122740;
+    text-align: center;
+}
+
+.register-head{
+    color: #fff;
 }
 /* ENDING OF LANCER'S CONTRIBUTIONS */
