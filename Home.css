@@ -133,7 +133,6 @@ main{
     color: #fff;
     margin-top: 4rem;
     width: 81vw;
-    border: 1px solid red;
     margin: 2rem auto;
     text-align: center;
   }
@@ -156,13 +155,15 @@ main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.3rem;
-    /* width: 100%; */
-    border: 1px solid blue;
 }
 
 .nominee-card{
     display: flex;
     flex-direction: column;
+}
+
+.nominee-card img{
+    width: 100%;
 }
 .container{
     background-color: #fff;
