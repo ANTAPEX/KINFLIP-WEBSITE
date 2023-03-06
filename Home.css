@@ -177,13 +177,19 @@
         border-top-right-radius: .6rem;
         border-top-left-radius: .6rem;
     }
+
     .container{
         background-color: #fff;
         color: black;
         border-bottom-left-radius: .6rem;
         border-bottom-right-radius: .6rem;
+        padding: .8rem 0;
     }
 
+    .container p{
+        font-size: .8rem;
+    }
+    
     .register-section{
         background-color: #122740;
         text-align: center;
