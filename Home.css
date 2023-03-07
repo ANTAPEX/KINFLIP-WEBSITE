@@ -149,7 +149,7 @@
         justify-content: space-between;
         align-items: center;
         width: 9%;
-        margin: auto;
+        margin: 1rem auto;
         border: 1px solid var(--pry-yellow);
         border-radius: .6rem;
         padding: .5rem 1rem;
