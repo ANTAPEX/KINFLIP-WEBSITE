@@ -282,6 +282,7 @@
         padding: 2rem 0;
         width: 85vw;
         margin: 4rem auto;
+        font-family: 'Lora', serif;
     }
 
     .register-head{
@@ -291,11 +292,13 @@
     .register-head h3{
         margin-bottom: 1rem;
         font-size: 1.8rem;
+        font-weight: 700;
     }
 
     .register-head p{
         margin-bottom: 1rem;
         line-height: 1.2rem;
+        font-weight: 400;
     }
 
     .reg-attendee{
@@ -305,6 +308,7 @@
         border: none;
         border-radius: .4rem;
         margin-right: .4rem;
+        font-weight: 500;
     }
 
     .reg-speaker{
@@ -314,6 +318,7 @@
         padding: .7rem;
         outline: 0;
         border-radius: .45rem;
+        font-weight: 500;
     }
 
 
