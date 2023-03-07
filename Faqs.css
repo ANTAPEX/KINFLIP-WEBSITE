@@ -40,6 +40,9 @@ main {
     flex-grow: 0;
 }
 
+
+/* Max-width - 1440px 
+*************************************************/
 @media screen and (max-width: 1440px){
     /* heading section 
     *****************************************/
@@ -507,4 +510,16 @@ main {
         /* Icon */
         margin-left: 10px;
     }
+}
+
+/* Max-width - 834px 
+*************************************************/
+@media screen and (max-width:834px) {
+    
+}
+
+/* Max-width - 375px - Mobile Screen
+*************************************************/
+@media screen and (max-width:375px) {
+    
 }
