@@ -18,6 +18,7 @@
         background-color: #121212;
         padding: 1rem 0;
     }
+
     .top-main{
         width: 85vw;
         background-color: black;
@@ -29,6 +30,18 @@
         justify-content: space-between;
         color: #fff;
         padding: 1rem;
+    }
+
+    .top-main-flex p{
+        font-family: 'Nunito', sans-serif;
+        font-weight: 500;
+        margin: 1rem 0;
+    }
+
+    .top-speaker, .top-attendee, .top-course, .top-session{
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
     }
 
     .top-main div{
@@ -48,7 +61,9 @@
         align-items: center;
         justify-content: center;
         padding-top: 1rem;
-        font-size: 1.3rem; 
+        font-size: 1.3rem;
+        font-family: 'Lora', serif;
+        font-weight: 600; 
     }
 
     .middle-main{
@@ -266,7 +281,35 @@
 
 
     /* --------------------RESPONSIVE STYLING STARTS HERE --------------------------- */
-    /* @media(max-width: ) */
+    @media(max-width: 450px){
+        .top-main div{
+            text-align: left;
+        }
+
+        .top-main-flex{
+            border: 1px solid red;
+            flex-wrap: wrap;
+            padding: 0;
+            /* text-align: center; */
+        }
+
+        .top-main-flex div{
+            flex-basis: 50%;
+
+            /* border: 1px solid blue; */
+
+        }
+
+
+        .circle{
+            width: 6rem;
+            height: 6rem;
+        }
+
+        .circle span{
+            padding-top: 2rem;
+        }
+    }
 
 
 
