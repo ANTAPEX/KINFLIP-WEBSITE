@@ -75,6 +75,16 @@
     .speaker-head{
         text-align: center;
         margin: 2rem 0;
+        font-family: 'Lora', serif;
+    }
+
+    .speaker-head h2{
+        font-weight: 700;
+    }
+
+    .speaker-head p{
+        font-weight: 400;
+        margin-top: .9rem;
     }
 
     .speaker-grid{
@@ -84,6 +94,7 @@
         margin: auto;
         gap: 1.5rem;
         text-align: center;
+        font-family: 'Nunito', sans-serif;
     }
 
     .speaker-child img{
@@ -92,11 +103,13 @@
 
     .speaker-child h2{
         margin: .4rem 0;
+        font-weight: 700;
     }
 
     .speaker-child p{
         margin-bottom: 1rem;
         font-size: .8rem;
+        font-weight: 500;
     }
 
     .gallery{
@@ -106,6 +119,15 @@
 
     .gallery-head{
         text-align: center;
+        font-family: 'Lora', serif;
+    }
+
+    .gallery-head h2{
+        font-weight: 700;
+    }
+
+    .gallery-head p{
+        font-weight: 400;
     }
 
     .gallery-grid {
@@ -169,6 +191,8 @@
         border: 1px solid var(--pry-yellow);
         border-radius: .6rem;
         padding: .5rem 1rem;
+        font-family: 'Lora', serif;
+        font-family: 700;
     }
 
     .gallery-btn span{
@@ -176,6 +200,7 @@
         color: var(--pry-yellow);
         outline: 0;
         border: none;
+        font-size: .8rem;
     }
 
     .arrow-div img{
@@ -189,10 +214,16 @@
         width: 85vw;
         margin: 2rem auto;
         text-align: center;
+        font-family: 'Lora', serif;
+    }
+
+    .nominee-head h2{
+        font-weight: 600;
     }
 
     .nominee-head p{
         margin: .2rem 0;
+        font-weight: 400;
     }
 
     .nominee-btn{
@@ -203,6 +234,8 @@
         border-radius: .35rem;
         margin: 2rem auto;
         padding: .5rem 1rem;
+        font-family: 'Lora', serif;
+        font-weight: 500;
     }
 
     .nominee-grid{
@@ -230,11 +263,17 @@
         color: black;
         border-bottom-left-radius: .6rem;
         border-bottom-right-radius: .6rem;
-        padding: .8rem 0;
+        padding: .8rem 1.5rem;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .container h4{
+        font-weight: 700;
     }
 
     .container p{
         font-size: .8rem;
+        font-weight: 500;
     }
 
     .register-section{
