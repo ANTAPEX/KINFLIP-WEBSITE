@@ -331,27 +331,40 @@
         }
 
         .top-main-flex{
-            border: 1px solid red;
+            /* border: 1px solid red; */
             flex-wrap: wrap;
             padding: 0;
             /* text-align: center; */
         }
 
         .top-main-flex div{
-            flex-basis: 50%;
-
+            flex-basis: 45%;
             /* border: 1px solid blue; */
-
         }
-
-
+  
+        .top-speaker, .top-attendee, .top-course, .top-session{
+            /* display: block;
+            padding-left: 2.5rem;
+            padding-top: 1rem;
+            text-align: center; */
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            border: 1px solid red;
+        }
+        
+        .top-main-flex div p{
+            border: 1px solid blue
+        }
+        
         .circle{
-            width: 6rem;
-            height: 6rem;
+            width: 6.5rem;
+            height: 6.5rem;
+            flex-basis: 80%;
         }
 
         .circle span{
-            padding-top: 2rem;
+            padding-top: 1.8rem;
         }
     }
 
