@@ -511,3 +511,15 @@ main {
         margin-left: 10px;
     }
 }
+
+/* Max-width - 834px 
+*************************************************/
+@media screen and (max-width:834px) {
+    
+}
+
+/* Max-width - 375px - Mobile Screen
+*************************************************/
+@media screen and (max-width:375px) {
+    
+}
