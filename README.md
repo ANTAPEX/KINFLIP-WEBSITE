@@ -1,7 +1,7 @@
 # KINFLIP-WEBSITE
 
 ### Project Purpose 📍
-This project is a basic confrence website that shows details about the agenda of the event, nomines, speaker, and partners.
+This project is a basic conference website that shows details about the agenda of the event, nomines, speakers and will handle the registration of both speakers and attendes
 
 ## Basic Website Structure ䷦
 * Landing Page
