@@ -497,12 +497,19 @@
         grid-template-columns: repeat(3, 1fr);
       }
 
+      .container{
+        padding: .5rem 1rem;
+      }
+
       .tablet h4{
-        font-size: .9rem;
+        font-size: .7rem;
+        min-width: 100px;
       }
 
       .tablet p{
-        font-size: .7rem;
+        font-size: .5rem;
+        min-width: 100px;
+        text-align: center;
       }
 
       .desktop-tab{
