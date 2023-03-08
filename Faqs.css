@@ -229,7 +229,7 @@ main {
 
     hr
     {
-        display: hidden;
+        display: none;
     }
 
     /* FAQS section 
@@ -548,12 +548,13 @@ main {
     .timer h2
     {
         width: 100%;
-        font-size: 5.5vw;
+        font-size: 5vw;
         text-align: center;
         line-height: 0;
         display: block;
         height: auto;
-        margin-bottom: 6vh;
+        margin-bottom: 8vh;
+        margin-inline: auto;
     }
     .comp
     {
@@ -561,31 +562,35 @@ main {
     }
     .comp .box
     {
-        padding-inline: 1rem;
+        padding-inline: 0rem;
         padding-block: 0.2rem;
         justify-content: center;
         height: auto;
     }
     .comp .box-
     {
-        padding-inline: 1rem;
+        padding-inline: 0rem;
         padding-block: 0.2rem;
         justify-content: center;
+        text-align: center;
         height: auto;
     }
     .comp p
     {
         width: 100%;
         font-size: 6vw;
+        text-align: center;
+        margin: auto;
     }
     .comp h3
     {
         width: 100%;
-        font-size: 4.5vw;
+        font-size: 1rem;
         margin-top: 0rem;
     }
     main hr
     {
+        display: block;
         border-color: var(--yellow);
         /* margin-bottom: 2rem; */
     }
@@ -611,27 +616,34 @@ main {
         font-size: 4.2vw;
         height: auto;
         line-height: 1.2;
+        margin-bottom: 0;
     }
     .questions
     {
         width: 100%;
         height: auto;
         display: block;
+        margin-top: 2rem;
     }
     .component
     {
         width: 100%;
+        height: auto;
+        display: block;
         margin-bottom: 2.5vh;
     }
     .frame
     {
         width: 100%;
+        height: auto;
+        padding-right: 1.5rem;
     }
     .frame h3
     {
-        font-size: 5.3vw;
+        font-size: 4.5vw;
         height: auto;
-        /* width: 100%; */
+        width: 100%;
+        margin: 0;
     }
     .answer
     {
