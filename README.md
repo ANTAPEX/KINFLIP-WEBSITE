@@ -12,14 +12,14 @@ This project is a basic confrence website that shows details about the agenda of
 
 | **Contributors** | **Role** |
 | ----------- | ----------- |
-| [ALIPHATIC👽](https://github.com/ALIPHATICHYD) | Design and Development |
-| [ʟᴀɴᴄᴇʀ](https://github.com/GentleMizt) | Development |
-| [Akintade Temiloluwa](https://github.com/Temi-Tade) | Development |
-| [Sabit Sadiq](https://github.com/sabitsadiq) | Development |
-| [Dohou Daniel Favour](https://github.com/dohoudaniel) | Development |
-| [Aderonmu Judah](https://github.com/aderonmujudah) | Development |
-| [Abiodun-Omoniyi Victory](https://github.com/preciousvictory) | Development |
-| [Michael Omoniyi](https://github.com/MichaelOmoniyi) | Development |
+| [ALIPHATIC👽](https://github.com/ALIPHATICHYD) | Design and FullStack Development |
+| [ʟᴀɴᴄᴇʀ](https://github.com/GentleMizt) | Frontend Development |
+| [Akintade Temiloluwa](https://github.com/Temi-Tade) | Frontend Development |
+| [Sabit Sadiq](https://github.com/sabitsadiq) | Frontend Development |
+| [Dohou Daniel Favour](https://github.com/dohoudaniel) | Frontend Development |
+| [Aderonmu Judah](https://github.com/aderonmujudah) | Frontend Development |
+| [Abiodun-Omoniyi Victory](https://github.com/preciousvictory) | Frontend Development |
+| [Michael Omoniyi](https://github.com/MichaelOmoniyi) | Frontend Development |
 
 
 ## To Contribute here(Version control) 🛠️
