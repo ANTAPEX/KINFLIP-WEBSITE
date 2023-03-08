@@ -470,9 +470,17 @@
         display: none;
       }
 
+      .desktop-btn{
+        display: none;
+      }
+
       hr{
         display: block;
       }
+    }
+
+    @media(max-width: 768px){
+
     }
 
 
