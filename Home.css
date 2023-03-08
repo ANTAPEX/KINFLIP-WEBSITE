@@ -326,8 +326,28 @@
       font-weight: 500;
     }
 
+    .mobile{
+      display: none;
+      background-color: var(--pry-yellow);
+      color: #fff;
+      border: none;
+      border-radius: .4rem;
+      padding: .7rem;
+      width: 80%;
+      margin: auto;
+    }
 
+    .desktop{
+      display: block;
+      outline: 0;
+    }
 
+    hr{
+      display: none;
+      color: #FFBC01;
+      width: 90vw;
+      margin: auto;
+    }
 
     /* --------------------RESPONSIVE STYLING STARTS HERE --------------------------- */
     @media (max-width: 425px){
@@ -423,7 +443,9 @@
 
       .register-section{
         width: 90vw;
+        margin-top: 1.5rem;
       }
+
       .register-head h3{
         font-size: 1.3rem;
         margin-bottom: .5rem;
@@ -434,6 +456,22 @@
         font-size: .7rem;
         width: 90%;
         margin: auto;
+      }
+
+      .register-btn{
+        margin-top: 1rem;
+      }
+
+      .mobile{
+        display: block;
+      }
+
+      .desktop{
+        display: none;
+      }
+
+      hr{
+        display: block;
       }
     }
 
