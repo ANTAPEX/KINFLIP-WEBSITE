@@ -379,6 +379,19 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
       }
+
+      .gallery-head h2{
+        font-size: 1.3rem
+      } 
+
+      .gallery-head p{
+        font-size: .9rem;
+        margin-top: .6rem;
+      }    
+
+      .gallery-grid{
+        margin-top: 2.3rem;
+      }
     }
 
 
