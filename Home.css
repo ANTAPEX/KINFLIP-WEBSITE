@@ -17,6 +17,7 @@
     main{
       background-color: #121212;
       padding: 1rem 0;
+      width: 100vw;
     }
 
     .top-main{
@@ -90,7 +91,7 @@
     .speaker-grid{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      width: 88vw;
+      width: 85vw;
       margin: auto;
       gap: 1.5rem;
       text-align: center;
@@ -326,6 +327,8 @@
 
     /* --------------------RESPONSIVE STYLING STARTS HERE --------------------------- */
     @media (max-width: 425px){
+      
+
       .top-main div{
         text-align: left;
       }
@@ -359,6 +362,22 @@
 
       .circle span{
         padding-top: 1.8rem;
+      }
+
+      .speaker-head h2{
+        font-size: 1.3rem;
+        /* border: 1px solid red; */
+      }
+
+      .speaker-head p{
+        font-size: .9rem;
+        margin-top: .5rem;
+        /* border: 1px solid red; */
+      }
+
+      .speaker-grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
       }
     }
 
