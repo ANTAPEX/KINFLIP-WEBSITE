@@ -187,7 +187,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: 9%;
+      width: 10%;
       margin: 1rem auto;
       border: 1px solid var(--pry-yellow);
       border-radius: .6rem;
@@ -230,11 +230,11 @@
     .nominee-btn{
       background-color: var(--pry-yellow);
       color: #fff;
-      width: 10vw;
+      width: 15%;
       text-align: center;
       border-radius: .35rem;
       margin: 2rem auto;
-      padding: .5rem 1rem;
+      padding: .5rem .5rem;
       font-family: 'Lora', serif;
       font-weight: 500;
     }
@@ -244,6 +244,10 @@
       grid-template-columns: repeat(4, 1fr);
       gap: 1.3rem;
       width: 85vw;
+    }
+
+    .tablet{
+      display: none;
     }
 
     .nominee-card{
@@ -327,8 +331,6 @@
 
     /* --------------------RESPONSIVE STYLING STARTS HERE --------------------------- */
     @media (max-width: 425px){
-      
-
       .top-main div{
         text-align: left;
       }
@@ -366,13 +368,11 @@
 
       .speaker-head h2{
         font-size: 1.3rem;
-        /* border: 1px solid red; */
       }
 
       .speaker-head p{
         font-size: .9rem;
         margin-top: .5rem;
-        /* border: 1px solid red; */
       }
 
       .speaker-grid{
@@ -391,6 +391,24 @@
 
       .gallery-grid{
         margin-top: 2.3rem;
+      }
+
+      .gallery-btn{
+        width: 30%;
+      }
+
+      .nominee-head h2{
+        font-size: 1.3rem 
+      }
+
+      .nominee-head p{
+        font-size: .9rem;
+        margin-top: .3rem;
+      }
+
+      .nominee-btn{
+        width: 35%;
+        margin-top: 1rem;
       }
     }
 
