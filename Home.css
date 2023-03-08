@@ -366,6 +366,10 @@
         padding-top: 1.8rem;
       }
 
+      .middle-main{
+        width: 90vw;
+      }
+
       .speaker-head h2{
         font-size: 1.3rem;
       }
@@ -378,6 +382,7 @@
       .speaker-grid{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
+        width: 90vw;
       }
 
       .gallery-head h2{
@@ -390,6 +395,7 @@
       }    
 
       .gallery-grid{
+        width: 90vw;
         margin-top: 2.3rem;
       }
 
@@ -409,6 +415,25 @@
       .nominee-btn{
         width: 35%;
         margin-top: 1rem;
+      }
+
+      .nominee-grid{
+        display: none;
+      }
+
+      .register-section{
+        width: 90vw;
+      }
+      .register-head h3{
+        font-size: 1.3rem;
+        margin-bottom: .5rem;
+      }
+
+      .register-head p{
+        text-align: center;
+        font-size: .7rem;
+        width: 90%;
+        margin: auto;
       }
     }
 
