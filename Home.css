@@ -187,7 +187,8 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: 10%;
+      width: 25%;
+      min-width: 158px;
       margin: 1rem auto;
       border: 1px solid var(--pry-yellow);
       border-radius: .6rem;
@@ -230,7 +231,8 @@
     .nominee-btn{
       background-color: var(--pry-yellow);
       color: #fff;
-      width: 15%;
+      width: 25%;
+      min-width: 158px;
       text-align: center;
       border-radius: .35rem;
       margin: 2rem auto;
@@ -342,6 +344,10 @@
       outline: 0;
     }
 
+    .desktop-tab{
+      display: grid;
+    }
+
     hr{
       display: none;
       color: #FFBC01;
@@ -420,7 +426,7 @@
       }
 
       .gallery-btn{
-        width: 30%;
+        width: 50%;
       }
 
       .nominee-head h2{
@@ -433,7 +439,7 @@
       }
 
       .nominee-btn{
-        width: 35%;
+        width: 55%;
         margin-top: 1rem;
       }
 
@@ -480,7 +486,28 @@
     }
 
     @media(max-width: 768px){
+      .speaker-grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 5rem;
+      }
 
+      .tablet{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .tablet h4{
+        font-size: .9rem;
+      }
+
+      .tablet p{
+        font-size: .7rem;
+      }
+
+      .desktop-tab{
+        display: none;
+      }
     }
 
 
