@@ -1,371 +1,415 @@
     @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Nunito:wght@500;700&display=swap');
     *{
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
 
     /* BEGINNING OF LANCER'S CONTRIBUTIONS */
     :root{
-        --pry-yellow: #FFBC01;
+      --pry-yellow: #FFBC01;
     }
 
     .html{
-        font-size: 10px;
+      font-size: 10px;
     }
 
     main{
-        background-color: #121212;
-        padding: 1rem 0;
+      background-color: #121212;
+      padding: 1rem 0;
+      width: 100vw;
     }
 
     .top-main{
-        width: 85vw;
-        background-color: black;
-        margin: auto;
+      width: 85vw;
+      background-color: black;
+      margin: auto;
     }
 
     .top-main-flex{
-        display: flex;
-        justify-content: space-between;
-        color: #fff;
-        padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      color: #fff;
+      padding: 1rem;
     }
 
     .top-main-flex p{
-        font-family: 'Nunito', sans-serif;
-        font-weight: 500;
-        margin: 1rem 0;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 500;
+      margin: 1rem 0;
     }
 
     .top-speaker, .top-attendee, .top-course, .top-session{
-        display: flex;
-        flex-direction: column;
-        align-items: center;        
+      display: flex;
+      flex-direction: column;
+      align-items: center;        
     }
 
     .top-main div{
-        text-align: center;
+      text-align: center;
     }
 
     .circle{
-        border-radius: 50%;
-        background-color: var(--pry-yellow);
-        color: #fff;
-        width: 3.5rem;
-        height: 3.5rem;
+      border-radius: 50%;
+      background-color: var(--pry-yellow);
+      color: #fff;
+      width: 3.5rem;
+      height: 3.5rem;
     }
 
     .circle span{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-top: 1rem;
-        font-size: 1.3rem;
-        font-family: 'Lora', serif;
-        font-weight: 600; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 1rem;
+      font-size: 1.3rem;
+      font-family: 'Lora', serif;
+      font-weight: 600; 
     }
 
     .middle-main{
-        color: #fff;
-        width: 85vw;
-        margin: auto;
+      color: #fff;
+      width: 85vw;
+      margin: auto;
     }
 
     .speaker-head{
-        text-align: center;
-        margin: 2rem 0;
-        font-family: 'Lora', serif;
+      text-align: center;
+      margin: 2rem 0;
+      font-family: 'Lora', serif;
     }
 
     .speaker-head h2{
-        font-weight: 700;
+      font-weight: 700;
     }
 
     .speaker-head p{
-        font-weight: 400;
-        margin-top: .9rem;
+      font-weight: 400;
+      margin-top: .9rem;
     }
 
     .speaker-grid{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        width: 88vw;
-        margin: auto;
-        gap: 1.5rem;
-        text-align: center;
-        font-family: 'Nunito', sans-serif;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      width: 85vw;
+      margin: auto;
+      gap: 1.5rem;
+      text-align: center;
+      font-family: 'Nunito', sans-serif;
     }
 
     .speaker-child img{
-        width: 100%;
+      width: 100%;
     }
 
     .speaker-child h2{
-        margin: .4rem 0;
-        font-weight: 700;
+      margin: .4rem 0;
+      font-weight: 700;
     }
 
     .speaker-child p{
-        margin-bottom: 1rem;
-        font-size: .8rem;
-        font-weight: 500;
+      margin-bottom: 1rem;
+      font-size: .8rem;
+      font-weight: 500;
     }
 
     .gallery{
-        color: #fff;
-        margin-top: 4rem;
+      color: #fff;
+      margin-top: 4rem;
     }
 
     .gallery-head{
-        text-align: center;
-        font-family: 'Lora', serif;
+      text-align: center;
+      font-family: 'Lora', serif;
     }
 
     .gallery-head h2{
-        font-weight: 700;
+      font-weight: 700;
     }
 
     .gallery-head p{
-        font-weight: 400;
+      font-weight: 400;
     }
 
     .gallery-grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(4, minmax(0, auto));
-        gap: .5rem;
-        width: 85vw;
-        margin: 3rem auto 0 auto;
-        overflow: hidden;
-        grid-auto-flow: dense;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, minmax(0, auto));
+      gap: .5rem;
+      width: 85vw;
+      margin: 3rem auto 0 auto;
+      overflow: hidden;
+      grid-auto-flow: dense;
     }
 
     .img1{
-        grid-column: 1 / 2;
-        grid-row: 2 / 4;
+      grid-column: 1 / 2;
+      grid-row: 2 / 4;
     }
     
     .img2{
-        grid-column: 2 / 3;
-        grid-row: 1 / 3;
+      grid-column: 2 / 3;
+      grid-row: 1 / 3;
     }
 
     .img4{
-        grid-column: 3 / 4;
-        grid-row: 1 / 3;
+      grid-column: 3 / 4;
+      grid-row: 1 / 3;
     }
 
     .img3{
-        grid-column: 2 / 3;
-        grid-row: 3 / 4;
+      grid-column: 2 / 3;
+      grid-row: 3 / 4;
     }
 
     .img5{
-        grid-column: 3 / 4;
-        grid-row: 3 / 4;
+      grid-column: 3 / 4;
+      grid-row: 3 / 4;
     }
 
     .img7{
-        grid-column: 4 / 5;
-        grid-row: 2 / 4;
+      grid-column: 4 / 5;
+      grid-row: 2 / 4;
     }
     
     .img-div {
-        width: 100%;
-        overflow: hidden;
+      width: 100%;
+      overflow: hidden;
     }
     
     .img-div img {
-        width: 100%;
-        object-fit: cover;
+      width: 100%;
+      object-fit: cover;
     }
 
     .gallery-btn{
-        color: #fff;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 9%;
-        margin: 1rem auto;
-        border: 1px solid var(--pry-yellow);
-        border-radius: .6rem;
-        padding: .5rem 1rem;
-        font-family: 'Lora', serif;
-        font-family: 700;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 10%;
+      margin: 1rem auto;
+      border: 1px solid var(--pry-yellow);
+      border-radius: .6rem;
+      padding: .5rem 1rem;
+      font-family: 'Lora', serif;
+      font-family: 700;
     }
 
     .gallery-btn span{
-        background-color: black;
-        color: var(--pry-yellow);
-        outline: 0;
-        border: none;
-        font-size: .8rem;
+      background-color: black;
+      color: var(--pry-yellow);
+      outline: 0;
+      border: none;
+      font-size: .8rem;
     }
 
     .arrow-div img{
-        width: 80%;
-        margin-top: .3rem;
+      width: 80%;
+      margin-top: .3rem;
     }
 
     .nominee{
-        color: #fff;
-        margin-top: 4rem;
-        width: 85vw;
-        margin: 2rem auto;
-        text-align: center;
-        font-family: 'Lora', serif;
+      color: #fff;
+      margin-top: 4rem;
+      width: 85vw;
+      margin: 2rem auto;
+      text-align: center;
+      font-family: 'Lora', serif;
     }
 
     .nominee-head h2{
-        font-weight: 600;
+      font-weight: 600;
     }
 
     .nominee-head p{
-        margin: .2rem 0;
-        font-weight: 400;
+      margin: .2rem 0;
+      font-weight: 400;
     }
 
     .nominee-btn{
-        background-color: var(--pry-yellow);
-        color: #fff;
-        width: 10vw;
-        text-align: center;
-        border-radius: .35rem;
-        margin: 2rem auto;
-        padding: .5rem 1rem;
-        font-family: 'Lora', serif;
-        font-weight: 500;
+      background-color: var(--pry-yellow);
+      color: #fff;
+      width: 15%;
+      text-align: center;
+      border-radius: .35rem;
+      margin: 2rem auto;
+      padding: .5rem .5rem;
+      font-family: 'Lora', serif;
+      font-weight: 500;
     }
 
     .nominee-grid{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 1.3rem;
-        width: 85vw;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.3rem;
+      width: 85vw;
+    }
+
+    .tablet{
+      display: none;
     }
 
     .nominee-card{
-        display: flex;
-        flex-direction: column;
-        border-top-right-radius: .6rem;
-        border-top-left-radius: .6rem;
+      display: flex;
+      flex-direction: column;
+      border-top-right-radius: .6rem;
+      border-top-left-radius: .6rem;
     }
 
     .nominee-card img{
-        width: 100%;
-        border-top-right-radius: .6rem;
-        border-top-left-radius: .6rem;
+      width: 100%;
+      border-top-right-radius: .6rem;
+      border-top-left-radius: .6rem;
     }
 
     .container{
-        background-color: #fff;
-        color: black;
-        border-bottom-left-radius: .6rem;
-        border-bottom-right-radius: .6rem;
-        padding: .8rem 1.5rem;
-        font-family: 'Nunito', sans-serif;
+      background-color: #fff;
+      color: black;
+      border-bottom-left-radius: .6rem;
+      border-bottom-right-radius: .6rem;
+      padding: .8rem 1.5rem;
+      font-family: 'Nunito', sans-serif;
     }
 
     .container h4{
-        font-weight: 700;
+      font-weight: 700;
     }
 
     .container p{
-        font-size: .8rem;
-        font-weight: 500;
+      font-size: .8rem;
+      font-weight: 500;
     }
 
     .register-section{
-        background-color: #122740;
-        text-align: center;
-        padding: 2rem 0;
-        width: 85vw;
-        margin: 4rem auto;
-        font-family: 'Lora', serif;
+      background-color: #122740;
+      text-align: center;
+      padding: 2rem 0;
+      width: 85vw;
+      margin: 4rem auto;
+      font-family: 'Lora', serif;
     }
 
     .register-head{
-        color: #fff;
+      color: #fff;
     }
 
     .register-head h3{
-        margin-bottom: 1rem;
-        font-size: 1.8rem;
-        font-weight: 700;
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+      font-weight: 700;
     }
 
     .register-head p{
-        margin-bottom: 1rem;
-        line-height: 1.2rem;
-        font-weight: 400;
+      margin-bottom: 1rem;
+      line-height: 1.2rem;
+      font-weight: 400;
     }
 
     .reg-attendee{
-        background-color: var(--pry-yellow);
-        color: #fff;
-        padding: .7rem;
-        border: none;
-        border-radius: .4rem;
-        margin-right: .4rem;
-        font-weight: 500;
+      background-color: var(--pry-yellow);
+      color: #fff;
+      padding: .7rem;
+      border: none;
+      border-radius: .4rem;
+      margin-right: .4rem;
+      font-weight: 500;
     }
 
     .reg-speaker{
-        background-color: #122740;
-        border: 1.4px solid var(--pry-yellow);
-        color: var(--pry-yellow);
-        padding: .7rem;
-        outline: 0;
-        border-radius: .45rem;
-        font-weight: 500;
+      background-color: #122740;
+      border: 1.4px solid var(--pry-yellow);
+      color: var(--pry-yellow);
+      padding: .7rem;
+      outline: 0;
+      border-radius: .45rem;
+      font-weight: 500;
     }
 
 
 
 
     /* --------------------RESPONSIVE STYLING STARTS HERE --------------------------- */
-    @media(max-width: 450px){
-        .top-main div{
-            text-align: left;
-        }
+    @media (max-width: 425px){
+      .top-main div{
+        text-align: left;
+      }
 
-        .top-main-flex{
-            /* border: 1px solid red; */
-            flex-wrap: wrap;
-            padding: 0;
-            /* text-align: center; */
-        }
+      .top-main-flex{
+        flex-wrap: wrap;
+        padding: 0 ;
+      }
 
-        .top-main-flex div{
-            flex-basis: 45%;
-            /* border: 1px solid blue; */
-        }
-  
-        .top-speaker, .top-attendee, .top-course, .top-session{
-            /* display: block;
-            padding-left: 2.5rem;
-            padding-top: 1rem;
-            text-align: center; */
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            border: 1px solid red;
-        }
-        
-        .top-main-flex div p{
-            border: 1px solid blue
-        }
-        
-        .circle{
-            width: 6.5rem;
-            height: 6.5rem;
-            flex-basis: 80%;
-        }
+      .top-main-flex div{
+        flex-basis: 45%;
+      }
 
-        .circle span{
-            padding-top: 1.8rem;
-        }
+      .top-speaker, .top-attendee, .top-course, .top-session{
+        display: block;
+        padding-left: 2.5rem;
+        padding-top: 1rem;
+      }
+      
+      .top-main-flex div p{
+        font-size: .9rem;
+        width: 70%;
+        text-align: center;
+      }
+      
+      .circle{
+        width: 5.3rem;
+        height: 5.3rem;
+        flex-basis: 80%;
+      }
+
+      .circle span{
+        padding-top: 1.8rem;
+      }
+
+      .speaker-head h2{
+        font-size: 1.3rem;
+      }
+
+      .speaker-head p{
+        font-size: .9rem;
+        margin-top: .5rem;
+      }
+
+      .speaker-grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+      }
+
+      .gallery-head h2{
+        font-size: 1.3rem
+      } 
+
+      .gallery-head p{
+        font-size: .9rem;
+        margin-top: .6rem;
+      }    
+
+      .gallery-grid{
+        margin-top: 2.3rem;
+      }
+
+      .gallery-btn{
+        width: 30%;
+      }
+
+      .nominee-head h2{
+        font-size: 1.3rem 
+      }
+
+      .nominee-head p{
+        font-size: .9rem;
+        margin-top: .3rem;
+      }
+
+      .nominee-btn{
+        width: 35%;
+        margin-top: 1rem;
+      }
     }
 
 
