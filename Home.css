@@ -187,7 +187,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: 25%;
+      width: 15%;
       min-width: 158px;
       margin: 1rem auto;
       border: 1px solid var(--pry-yellow);
@@ -231,7 +231,7 @@
     .nominee-btn{
       background-color: var(--pry-yellow);
       color: #fff;
-      width: 25%;
+      width: 18%;
       min-width: 158px;
       text-align: center;
       border-radius: .35rem;
