@@ -508,6 +508,26 @@
       .desktop-tab{
         display: none;
       }
+
+      .register-section{
+        margin-top: 1.5rem;
+      }
+
+      .register-head h3{
+        font-size: 1.5rem;
+        margin-bottom: .2rem;
+      }
+
+      .register-head p{
+        text-align: center;
+        font-size: .7rem;
+        width: 90%;
+        margin: auto;
+      }
+
+      .desktop-btn{
+        margin-top: .7rem;
+      }
     }
 
 
