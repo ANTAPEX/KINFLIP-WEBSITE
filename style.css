@@ -1,5 +1,575 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	letter-spacing: .25px;
+}
+
+*:fous{
+	outline: none;
+}
+
+:root {
+	--highl: #FFBC01;
+	--color: #FFF;
+	--bg: #040404;
+	--borrad: 6px;
+}
+
+.highlight {
+	color: var(--highl);
+}
+
+body {
+	background: #121212;
+	font-family: cambria, serif;
+}
+
+button{
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+}
+
+a{
+	text-decoration: none;
+}
+
+.child_container {
+	width: 90%;
+	margin: auto;
+	padding: 6px 1px;
+	color: #FFF;
+	margin-top: 1.5rem;
+}
+
+.section{
+		background: var(--bg);
+		margin: auto;
+		width: 100%;
+		line-height: 1.5;
+		padding-top: 2rem;
+}
+
+@media (max-width: 768px) {
+	.tablet, .desktop{
+		display: none;
+	}
+	
+	header{
+		background: var(--bg);
+		padding: 1rem;
+		color: var(--highl);
+		display: flex; 
+		justify-content: space-between;
+		border: none;
+		height: 4rem;
+	}
+	
+	header .second-child{
+		justify-content: right;
+	}
+	
+	h1{
+		width: 90%;
+		margin: auto;
+		font-size: 28px;
+		text-align: center;
+		color: #FFF;
+		padding: .5rem 0;
+		line-height: 1.5
+	}
+	
+	.section p{
+		text-align: center;
+		padding: 0 0 .5rem;
+		width: 100%;
+		color: #CCC;
+		font-family: sans-serif;
+		line-height: 2
+	}
+	
+	.btn_container a{
+		font-size: var(--f_size);
+		color: var(--color);
+		background: var(--highl);
+		padding: 1rem 2.5rem;
+		font-family: fantasy;
+		border-radius: var(--borrad);
+		font-family: cambria, serif
+	}
+
+	.btn_container{
+		width: 100%;
+		margin: 1rem auto 0;
+		padding: 1rem 0;
+		display: flex;
+		justify-content: center;
+		
+	}
+	
+	#tab-reg-attendee, #tab-reg-speaker{
+		display: none;
+	}
+	
+	.countdown-container{
+		margin: auto;
+		padding: 2px;
+		width: 90%;
+	}
+	
+	.countdown-header{
+		font-family: sans-serif;
+		text-align: center;
+		color: var(--highl);
+		font-weight: 400;
+		padding: 4px;
+	}
+	
+	.card_container{
+		display: flex;
+		padding: 4px;
+		justify-content: space-evenly;
+		width: 90%;
+		margin: auto;
+	}
+	
+	.sub{
+		width: 80px;
+		height: 50px;
+		margin: auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center
+	}
+	
+	.card{
+		width: 45%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: sans-serif;
+		font-weight: bold;
+		background: #122740;
+		font-size: 18px;
+	}
+	
+	.text{
+		display: flex;
+		justify-content: space-evenly;
+		width: 90%;
+		margin: auto;
+		padding: 2px;;
+	}
+	
+	.text div{
+		width: 30%;
+		text-align: center;
+		padding: 2px;
+		font-family: sans-serif;
+	}
+	
+	.img-big{
+		width: 100%;
+		margin: 6px auto 16px;
+		padding: 6px 0;
+		border-radius: var(--borrad);
+	}
+	
+	.img-big .mob{
+		width: 100%;
+		display: block;
+		border-radius: var(--borrad);
+	}
+	
+	.about h2{
+		text-align: center;
+		margin: .5rem;
+		font-weight: 400;
+	}
+
+	.sponsors, .partners{
+		padding: .5rem;
+		width: 100%;
+	}
+	
+	.sponsors img, .partners img{
+		width: 100%;
+	}
+	
+	.about button{
+		display: inline;
+		background: transparent;
+		color: var(--highl);
+		border: 0;
+		font-size: 1rem
+	}
+	
+	.about .mob{
+		padding: .25rem;
+		text-align: center;
+		line-height: 2;
+		color: #CCC;
+		font-family: sans-serif;
+	}
+}
+
+@media (min-width: 768px) {
+	.mob, .desktop{
+		display: none;
+	}
+	
+	header{
+		padding: 1rem 5rem;
+		background: var(--bg);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.second-child{
+		width: 40%; 
+		display: flex; 
+		justify-content: space-evenly; 
+		align-items: center
+	}
+	
+	#tab_reg_btn{
+		background: var(--highl);
+		border: 0;
+		color: #FFF;
+		padding: .75rem .5rem;
+		display: block;
+		border-radius: var(--borrad);
+		width: 8.5rem;
+		font-family: cambria, serif;
+		font-size: 1rem;
+	}
+	
+	h1{
+		color: #FFF;
+		width: 55%;
+		margin: auto;
+		text-align: center;
+		font-size: 45px;
+		font-weight: 400;
+		line-height: 1.2;
+		font-family: cambria, serif;
+	}
+	
+	.section p{
+		text-align: center;
+		padding: 0 0 .5rem;
+		width: 60%;
+		color: #CCC;
+		font-family: sans-serif;
+		line-height: 2;
+		margin: auto;
+	}
+	
+	.btn_container{
+		width: 65%;
+		margin: 1rem auto;
+		display: flex;
+		padding: .5rem;
+		justify-content: space-around;
+		align-items: center;
+	}
+	
+	.btn_container a{
+		width: 40%;
+		height: 2.95rem;
+		font-size: 1rem;
+		border-radius: var(--borrad);
+		border: 0;
+		font-family: cambria, serif;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.btn_container #mobile-reg-btn{
+		display: none;
+	}
+	
+	#tab-reg-attendee{
+		background: var(--highl);
+		color: #FFF;
+	}
+	
+	#tab-reg-speaker{
+		background: transparent;
+		color: var(--highl);
+		border: 1.5px solid var(--highl)
+	}
+	
+	.countdown-container{
+		width: 40%;
+		margin: 3rem auto;
+	}
+	
+	.countdown-header{
+		text-align: center;
+		color: var(--highl);
+		font-size: 2rem;
+		padding-bottom: 1rem
+	}
+	
+	.card_container{
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	.sub{
+		width: 80px;
+		height: 50px;
+		margin: auto;
+		display: flex;
+		justify-content: space-around;
+		align-items: center
+	}
+	
+	.card{
+		width: 40%;
+		text-align: center;
+		font-size: 1.5rem;
+		background: #122740;
+	}
+	
+	.text{
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+	}
+	
+	.text div{
+		width: 30%;
+		text-align: center;
+		padding: 4px;
+		font-size: .75rem;
+	}
+	
+	.img-big{
+		margin: auto;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: .5rem 0;
+	}
+	
+	.img-big .mob{
+		display: none;
+	}
+	
+	
+	
+	.sponsors, .partners{
+		width: 100%;
+	}
+	
+	.sponsors img, .partners img{
+		width: 60%;
+		margin: auto;
+		display: block;
+	}
+	
+	.about{
+		padding: .25rem;
+		text-align: center;
+		line-height: 2;
+		color: #CCC;
+		font-family: sans-serif;
+		width: 90%;
+		margin: auto;
+	}
+	
+	.about h2{
+		color: #FFF;
+		font-family: cambria, serif;
+		font-weight: 400;
+	}
+	
+	.tablet div{
+		font-size: 1.25rem;
+		line-height: 1.4
+	}
+	
+	.about button{
+		display: inline;
+		background: transparent;
+		color: var(--highl);
+		border: 0;
+		font-size: inherit;
+	}
+}
+
+@media (min-width: 1200px){
+	.mob, .tablet{
+		display: none;	
+	}
+
+	#tab_reg_btn{
+		display: none;
+	}
+
+	header .second-child{
+		display: none;
+	}
+
+	.desktop{
+		display: block;
+	}
+
+	header{
+		padding: 1rem 1.5rem;
+		background: var(--bg);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	ul{
+		color: #FFF;
+		display: flex;
+		text-transform: uppercase;
+		font-family: sans-serif;
+		font-weight: 600;
+		width: 37.5rem;
+		padding: .5rem;
+		justify-content: space-between;
+	}
+
+	ul li{
+		padding: 0 1rem;
+		width: 25%;
+		font-size: .90rem;
+		text-align: center;
+	}
+
+	h1{
+		text-align: left;
+		margin: 0 1rem;
+	}
+
+	.section p{
+		text-align: left;
+		margin: .5rem 1rem;
+	}
+
+	.btn_container{
+		width: 65%;
+		margin: 1rem 0;
+		display: flex;
+		padding: .5rem;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	.reg_btns{
+		width: 30rem;
+		padding: .5rem;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.reg_btns  a{
+		border-radius: var(--borrad);
+		font-family: cambria, serif
+	}
+
+	.reg_btns #desktop-reg-attendee{
+		color: #FFF;
+		background: var(--highl);
+		font-size: 1rem;
+		padding: .75rem;
+	}
+
+	.reg_btns #desktop-reg-speaker{
+		color: #FFF;
+		border: 1px solid var(--highl);
+		font-size: 1rem;
+		padding: .75rem;
+		background: transparent;
+		color: var(--highl);
+	}
+
+	.desktop-flex-box{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.countdown-container{
+		width: 40%;
+		margin: 3rem 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.countdown-header{
+		text-align: center;
+		color: var(--highl);
+		font-size: 2.5rem;
+		padding-bottom: 1rem
+	}
+
+	.card_container{
+		display: flex;
+		width: 20rem
+	}
+	
+	.sub{
+		width: 80px;
+		height: 50px;
+		margin: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center
+	}
+	
+	.card{
+		width: 30%;
+		text-align: center;
+		font-size: 2rem;
+		background: #122740;
+	}
+
+	.text{
+		display: flex;
+		justify-content: space-around;
+		width: 75%;
+	}
+	
+	.text div{
+		width: 30%;
+		text-align: center;
+		padding: 4px;
+		font-size: .75rem;
+	}
+
+	.sponsors, .partners{
+		width: 100%;
+	}
+	
+	.sponsors img, .partners img{
+		width: 65%;
+		margin: auto;
+		display: block;
+	}
+
+	.about{
+		padding: .25rem;
+		text-align: center;
+		line-height: 2;
+		color: #CCC;
+		font-family: sans-serif;
+		width: 100%;
+		margin: auto;
+	}
+
+	.about h2{
+		font-size: 2rem;
+	}
 }
