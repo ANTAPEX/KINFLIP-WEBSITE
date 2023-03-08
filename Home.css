@@ -325,41 +325,35 @@
 
 
     /* --------------------RESPONSIVE STYLING STARTS HERE --------------------------- */
-    @media(max-width: 450px){
+    @media (max-width: 425px){
       .top-main div{
         text-align: left;
       }
 
       .top-main-flex{
-        /* border: 1px solid red; */
         flex-wrap: wrap;
-        padding: 0;
-        /* text-align: center; */
+        padding: 0 ;
       }
 
       .top-main-flex div{
         flex-basis: 45%;
-        /* border: 1px solid blue; */
       }
 
       .top-speaker, .top-attendee, .top-course, .top-session{
-        /* display: block;
+        display: block;
         padding-left: 2.5rem;
         padding-top: 1rem;
-        text-align: center; */
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        border: 1px solid red;
       }
       
       .top-main-flex div p{
-        border: 1px solid blue
+        font-size: .9rem;
+        width: 70%;
+        text-align: center;
       }
       
       .circle{
-        width: 6.5rem;
-        height: 6.5rem;
+        width: 5.3rem;
+        height: 5.3rem;
         flex-basis: 80%;
       }
 
