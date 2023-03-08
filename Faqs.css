@@ -20,14 +20,13 @@
 
 main {
     background: var(--background);
-    
-    /* Auto layout */
+    width: 100%;
+    /* overflow: auto; */
 
-    display: flex;
-    flex-direction: column;
+    /* Auto layout */
     justify-content: center;
     align-items: center;
-    padding: 24px 12px;
+    padding: 6vw;
     gap: 24px;
 /* 
     width: 1255px;
@@ -39,6 +38,10 @@ main {
     order: 0;
     flex-grow: 0;
 }
+
+
+
+
 
 @media screen and (max-width: 1440px){
     /* heading section 
@@ -166,7 +169,7 @@ main {
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
-        line-height: 16px;
+        line-height: 0px;
         /* identical to box height, or 133% */
 
         text-align: center;
@@ -222,6 +225,11 @@ main {
         /* Base / White */
 
         color: #FFFFFF;
+    }
+
+    hr
+    {
+        display: none;
     }
 
     /* FAQS section 
@@ -510,3 +518,135 @@ main {
 }
 
 /* Ending of Styles by Precious Victory */
+
+/*styling for mobile view*/
+@media screen and (max-width: 720px) {
+    main
+    {
+        display: block;
+        padding-top: 0;
+        padding-inline: 6vw;
+    }
+    .heading
+    {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        padding-inline: 7vw;
+        /* padding-block: 5vh; */
+        padding-top: 8vh;
+        margin-bottom: 2rem;
+    }
+    .timer
+    {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        text-align: center;
+    } 
+    .timer h2
+    {
+        width: 100%;
+        font-size: 5vw;
+        text-align: center;
+        line-height: 0;
+        display: block;
+        height: auto;
+        margin-bottom: 8vh;
+        margin-inline: auto;
+    }
+    .comp
+    {
+        height: auto;
+    }
+    .comp .box
+    {
+        padding-inline: 0rem;
+        padding-block: 0.2rem;
+        justify-content: center;
+        height: auto;
+    }
+    .comp .box-
+    {
+        padding-inline: 0rem;
+        padding-block: 0.2rem;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+    }
+    .comp p
+    {
+        width: 100%;
+        font-size: 6vw;
+        text-align: center;
+        margin: auto;
+    }
+    .comp h3
+    {
+        width: 100%;
+        font-size: 1rem;
+        margin-top: 0rem;
+    }
+    main hr
+    {
+        display: block;
+        border-color: var(--yellow);
+        /* margin-bottom: 2rem; */
+    }
+    .FAQ
+    {
+        width: 100%;
+    }
+    .header
+    {
+        margin-bottom: 2rem;
+    }
+    .FAQ .header h2
+    {
+        font-size: 6vw;
+        height: auto;
+        /* line-height: 4.5rem; */
+        margin-top: 1rem;
+        margin-bottom: 0.1rem;
+        color: var(--yellow);
+    }
+    .FAQ .header p
+    {
+        font-size: 4.2vw;
+        height: auto;
+        line-height: 1.2;
+        margin-bottom: 0;
+    }
+    .questions
+    {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-top: 2rem;
+    }
+    .component
+    {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 2.5vh;
+    }
+    .frame
+    {
+        width: 100%;
+        height: auto;
+        padding-right: 1.5rem;
+    }
+    .frame h3
+    {
+        font-size: 4.5vw;
+        height: auto;
+        width: 100%;
+        margin: 0;
+    }
+    .answer
+    {
+        width: 100%;
+    }
+}
