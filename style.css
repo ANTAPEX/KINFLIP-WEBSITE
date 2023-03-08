@@ -5,6 +5,8 @@
 	letter-spacing: .25px;
 }
 
+/*beginning of Temi-Tade's contribution*/
+
 *:fous{
 	outline: none;
 }
@@ -573,3 +575,4 @@ a{
 		font-size: 2rem;
 	}
 }
+/*end of temi-tade's contribution*/
