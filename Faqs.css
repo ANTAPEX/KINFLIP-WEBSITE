@@ -128,7 +128,7 @@ main {
 }
 .comp .box
 {
-    padding-inline: 0rem;
+    padding-inline: 0.5rem;
     padding-block: 0.2rem;
     justify-content: center;
     height: auto;
@@ -448,7 +448,7 @@ main hr
         font-family: 'Lora';
         font-style: normal;
         font-weight: 400;
-        font-size: 45px;
+        /* font-size: 4px; */
         /* line-height: 52px; */
         text-align: center;
         margin-bottom: 2.5rem;
