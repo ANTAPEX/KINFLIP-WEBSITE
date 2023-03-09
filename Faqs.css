@@ -388,22 +388,28 @@ main hr
     }
 }
 
-
+/* Desktop Style  */
 /* FAQS Styles
                by Precious Victory ************************************************/
 @media screen and (min-width: 834px){
     /* heading section 
     *****************************************/
+    main
+    {
+        padding-bottom: 7rem;
+    }
     .heading {
         /* Auto layout */
 
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 24px 12px;
+        /* padding: 24px 12px; */
+        padding-inline: 20vw;
+        padding-top: 5rem;
         gap: 74px;
 
-        width: 90%;
+        width: 100%;
         height: 248px;
 
         background: var(--box3);
@@ -434,8 +440,8 @@ main hr
     }
 
     .timer h2{
-        width: 405px;
-        height: 104px;
+        /* width: 405px; */
+        /* height: 104px; */
 
         /* material-theme/display/medium */
 
@@ -443,13 +449,14 @@ main hr
         font-style: normal;
         font-weight: 400;
         font-size: 45px;
-        line-height: 52px;
+        /* line-height: 52px; */
         text-align: center;
+        margin-bottom: 2.5rem;
         
         /* Primary */
 
         color: var(--yellow);
-        margin: 0 auto;
+        /* margin: 0 auto; */
 
         display: flex;
         align-items: center;
@@ -474,7 +481,7 @@ main hr
         gap: 12px;
 
         width: 288px;
-        height: 84px;
+        /* height: 84px; */
         margin: 0 auto;
     }
 
@@ -487,7 +494,7 @@ main hr
         gap: 4px;
 
         width: 88px;
-        height: 84px;
+        /* height: 84px; */
 
         /* Inside auto layout */
 
@@ -504,7 +511,7 @@ main hr
         gap: 4px;
 
         width: 88px;
-        height: 64px;
+        /* height: 64px; */
     }
 
     .row h3 {
@@ -621,7 +628,7 @@ main hr
 
     .FAQ .header h2 {
         /* width: 1240px; */
-        height: 40px;
+        /* height: 40px; */
 
         /* material-theme/headline/large */
 
@@ -629,7 +636,7 @@ main hr
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
-        line-height: 40px;
+        /* line-height: 40px; */
         /* identical to box height, or 125% */
 
         text-align: center;
@@ -637,6 +644,7 @@ main hr
         /* material-theme/ref/neutral/neutral100 */
 
         color: #FFFFFF;
+        
     }
 
     .FAQ .header p {
@@ -664,7 +672,7 @@ main hr
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0px;
+        padding-inline: 23vw;
         gap: 24px;
 
         /* width: 1240px; */
@@ -677,7 +685,6 @@ main hr
         align-self: stretch;
         flex-grow: 0;
     }
-
     .component {
         /* Auto layout */
 
@@ -688,8 +695,8 @@ main hr
         padding: 12px 24px;
         gap: 8px;
 
-        width: 397px;
-        height: 52px;
+        /* width: 397px;
+        height: 52px; */
 
         border: 1px solid var(--border);
         border-radius: 8px;
@@ -703,8 +710,8 @@ main hr
 
     .component p {
         display: none;
-        width: 349px;
-        height: 32px;
+        /* width: 349px;
+        height: 32px; */
 
         font-family: 'Nunito';
         font-style: normal;
@@ -733,8 +740,8 @@ main hr
         padding: 0px;
         gap: 3px;
 
-        width: 349px;
-        height: 28px;
+        /* width: 349px;
+        height: 28px; */
 
 
         /* Inside auto layout */
@@ -795,16 +802,17 @@ main hr
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        padding: 12px 24px;
+        /* padding: 12px 24px; */
         gap: 8px;
 
-        width: 397px;
-        height: 108px;
+        /* width: 397px;
+        height: 108px; */
         left: 20px;
         top: 72px;
 
         border: 1px solid #FFFBFF;
         border-radius: 8px;
+        margin-bottom: 3rem;
 
     }
 
@@ -835,8 +843,8 @@ main hr
     }
 
     .answer p {
-        width: 349px;
-        height: 48px;
+        /* width: 349px;
+        height: 48px; */
 
         /* material-theme/title/medium */
 
