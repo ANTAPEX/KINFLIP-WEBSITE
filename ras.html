@@ -9,17 +9,15 @@
       type="image/svg"
       href="Images\kinflip logo mark 1.svg"
     />
-
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
     <link rel="stylesheet" href="ras.css" />
-    <title>kinflip| Register as speaker</title>
+    <title>kinflip | Register as speaker</title>
   </head>
 
   <body>
-    <header class="header">
+    <header>
       <nav class="nav">
         <img
           src="Images\kinflip logo main 1.svg"
@@ -28,48 +26,62 @@
           id="logo"
           designer="Aderonmu Judah"
           data-version-number="3.0"
+          width="175"
         />
-        <ul class="nav__links">
+        <ul class="desktop nav__links">
           <li class="nav__item"><a class="nav__link" href="">HOME</a></li>
           <li class="nav__item"><a class="nav__link" href="">CONTACT US</a></li>
           <li class="nav__item"><a class="nav__link" href="">ABOUT US</a></li>
           <li class="nav__item"><a class="nav__link" href="">FAQ</a></li>
           <li class="nav__item">
-            <a class="nav__link nav__link--btn btn--raa" href=""
-              >Register as an Attendee</a
+            <a class="nav__link nav__link--btn btn--raa" href="" id="attendee_reg">Register as an Attendee</a
             >
           </li>
           <li class="nav__item">
-            <a class="nav__link nav__link--btn btn--ras" href=""
-              >Register as a speaker</a
+            <a class="nav__link nav__link--btn btn--ras" href="" id="speaker_reg">Register as a speaker</a
             >
           </li>
         </ul>
+        
+        <div class="second-child">
+        	<a href="#" id="tab_reg_btn" class="tablet">Register &nbsp;&nbsp; <i class="fas fa-caret-down" style="color: #121212"></i></a>
+        	<i style="color: #FFBC01; font-size: 2rem" class="fas fa-bars"></i>
+        
+        </div>
       </nav>
-
-      <div class="header__title"><h1>FFI CONFERENCE</h1></div>
-      <div class="timer">
-        <div class="timer__days">
-          <div class="timer__days--1">6</div>
-          <div class="timer__days--2">0</div>
-          days
-        </div>
-        <div class="timer__hours">
-          <div class="timer__hours--1">1</div>
-          <div class="timer__hours--2">0</div>
-          hours
-        </div>
-        <div class="timer__minutes">
-          <div class="timer__minutes--1">6</div>
-          <div class="timer__minutes--2">0</div>
-          minutes
-        </div>
-      </div>
     </header>
 
-    <section class="section">
-      <form class="upload">
-        <div class="upload__column">
+     <div class="countdown-container">
+	<div class="countdown-header">
+		<strong>FFI CONFERENCE</strong>
+	</div>
+		<div class="card_container">
+			<div class="sub">
+				<div class="card">6</div>
+				<div class="card">0</div>
+			</div>
+	
+			<div class="sub">
+				<div class="card">1</div>
+				<div class="card">0</div>
+			</div>
+						
+			<div class="sub">
+				<div class="card">6</div>
+				<div class="card">0</div>
+			</div>
+		</div>
+					
+		<div class="text">
+			<div>Days</div>
+			<div>Hours</div>
+			<div>Minutes</div>
+		</div>
+	</div>
+    
+    <div class="form-container">
+      <form class="upload" autocomplete="off">
+        <div class="form-row">  
           <input required name="name" value="" placeholder="Name" type="text" />
           <input
             required
@@ -78,6 +90,9 @@
             placeholder="Email Address"
             type="text"
           />
+       </div>
+
+      <div class="form-row"> 
           <input
             required
             name="name"
@@ -92,6 +107,9 @@
             placeholder="Country"
             type="text"
           />
+      </div>
+
+       <div class="form-row"> 
           <input
             required
             name="name"
@@ -99,20 +117,23 @@
             placeholder="Name of your brand/label"
             type="text"
           />
+
           <input
             required
             name="name"
             value=""
-            placeholder="social media link"
+            placeholder="Social media link"
             type="text"
           />
-        </div>
-        <button class="btn upload__btn"><span>Register</span></button>
-      </form>
+      </div>
+        <button class="btn"><span>Register</span></button>
       <p class="footer">
         Want to register as an Attendee?
-        <a href="" class="redirection__link">Click Here</a>
+        <a href="" class="redirect_link">Click Here</a>
       </p>
-    </section>
+        </div>
+      </form>
+     
+
   </body>
 </html>
