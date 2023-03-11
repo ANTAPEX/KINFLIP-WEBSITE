@@ -92,6 +92,7 @@ body
     padding: 0.5rem;
     background-color: var(--box2);
     border-width: 0;
+    color: white;
 }
 .displayLinks
 {
@@ -190,10 +191,10 @@ a:visited {
     align-items: center;
     padding: 0px;
     gap: 59px;
+    border-radius: 4px;
 
     /* width: 1011px; */
     height: 44px;
-
 
     /* Inside auto layout */
 
@@ -201,6 +202,27 @@ a:visited {
     order: 1;
     flex-grow: 0;
     color: white;
+}
+
+.nav_bar {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid var(--yellow);
+    padding: 12px;
+
+    width: 100%;
+    background: var(--background);
+
+    position: absolute;
+    left: 0;
+    top: 80px;
+}
+
+.nav_item:hover {
+    background-color: var(--yellow);
+    padding: 5px;
+    border-radius: 4px;
 }
 
 .btn_a {
@@ -261,6 +283,36 @@ a.btn_s{
 
 .second_child {
     display: none;
+}
+
+.second_child ul {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+
+    width: 200px;
+    position: absolute;
+    /* height: 42px; */
+
+    /* Primary */
+
+    border: 1px solid var(--yellow);
+    border-radius: 4px;
+    margin-top: 5px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+}
+
+.second_child li:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--yellow);
 }
 
 @media screen and (max-width: 1200px) {
@@ -522,6 +574,12 @@ main hr
     margin-bottom: 1rem;
     width: 80%;
 }
+
+.component p {
+    margin-top: 5px;
+    color: white;
+    display: none;
+}
 .frame
 {
     width: 100%;
@@ -548,52 +606,6 @@ main hr
 .chevron .arrow {
     /* Icon */
     margin-top: 6px;
-}
-.answer
-{
-    width: 80%;
-    height: auto;
-    display: block;
-    /* flex-direction: column; */
-    justify-content: center;
-    align-items: flex-start;
-    /* padding: 12px 24px; */
-    padding: 0.5rem 1rem;
-    gap: 8px;
-    border: 1px solid #FFFBFF;
-    border-radius: 8px;
-    margin-bottom: 3rem;
-}
-.answer .icon {
-    /* Icon */
-
-    left: 25%;
-    right: 25%;
-    top: 37.5%;
-    bottom: 37.5%;
-    border: 2px solid #FFFFFF;
-    transform: rotate(-90deg);
-
-}
-
-.chevron- {
-    transform: rotate(90deg);
-}
-
-.answer p {
-    width: 100%;
-    height: auto;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 4.5vw;
-    line-height: 24px;
-    letter-spacing: 0.15px;
-    color: #F8EFE7;
-}
-.chevron- .arrow {
-    /* Icon */
-    margin-left: 10px;
 }
 /* End of styling for mobile view screen  */
 
@@ -651,14 +663,6 @@ main hr
     .questions h3
     {
         font-size: 3vw;
-    }
-    .answer .frame h3
-    {
-        font-size: 1.5rem;
-    }
-    .answer p
-    {
-        font-size: 1rem;
     }
 }
 
@@ -1066,85 +1070,5 @@ main hr
         /* Icon */
         margin-top: 6px;
     }
-
-    /* answer styles
-    **************************************/
-    .answer {
-        /* Auto layout */
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        /* padding: 12px 24px; */
-        gap: 8px;
-
-        /* width: 397px;
-        height: 108px; */
-        left: 20px;
-        top: 72px;
-
-        border: 1px solid #FFFBFF;
-        border-radius: 8px;
-        margin-bottom: 3rem;
-
-    }
-
-    .answer .icon {
-        /* Icon */
-
-        left: 25%;
-        right: 25%;
-        top: 37.5%;
-        bottom: 37.5%;
-
-        border: 2px solid #FFFFFF;
-        transform: rotate(-90deg);
-
-    }
-
-    .chevron- {
-        width: 24px;
-        height: 24px;
-
-        transform: rotate(90deg);
-
-        /* Inside auto layout */
-
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-    }
-
-    .answer p {
-        /* width: 349px;
-        height: 48px; */
-
-        /* material-theme/title/medium */
-
-        font-family: 'Nunito';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        /* or 150% */
-
-        letter-spacing: 0.15px;
-
-        /* material-theme/ref/neutral/neutral95 */
-
-        color: #F8EFE7;
-        /* Inside auto layout */
-
-        flex: none;
-        order: 1;
-        flex-grow: 0;
-    }
-
-    .chevron- .arrow {
-        /* Icon */
-        margin-left: 10px;
-    }
 }
-
 /* Ending of Styles by Precious Victory */
