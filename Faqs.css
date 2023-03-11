@@ -19,6 +19,110 @@ body
 {
     background: var(--background);
 }
+
+/* Styling for Navbar */
+.navContainer
+{
+    width: 100%;
+    height: auto;
+    background-color: var(--box3);
+    /* padding-inline: 1.7rem;
+    padding-block: 1rem; */
+    padding: 1rem;
+    padding-inline: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    /* position: sticky; */
+}
+.navLinksContainer
+{
+    display: none;
+}
+.navLogo img
+{
+    width: 6rem;
+}
+.navButtonsLink a
+{
+    display: none;
+}
+.navButtonsLink img
+{
+    width: 1rem;
+}
+.navDisplay
+{
+    width: 100%;
+    background-color: var(--background);
+    padding: 1.5rem;
+    position: absolute;
+    height: 93vh;
+    right: 0;
+    padding-top: 0.5rem;
+    z-index: 2;
+    display: none;
+    overflow: auto;
+    
+}
+.closeNavDisplay img
+{
+    width: 1rem;
+    float: right;
+    margin-bottom: 0.5rem;
+}
+.navSearch
+{
+    width: 100%;
+    display: flex;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-top: none;
+    border-right: none;
+    border-width: 0.1rem;
+    margin-bottom: 2rem;
+}
+.navSearch img
+{
+    width: 20%;
+}
+.navSearch input
+{
+    width: 80%;
+    outline: 0;
+    padding: 0.5rem;
+    background-color: var(--box2);
+    border-width: 0;
+}
+.displayLinks
+{
+    width: 100%;
+    margin-bottom: 4rem;
+}
+.displayLinks a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Nunito';
+}
+.displayLinks li
+{
+    margin-bottom: 2rem;
+    list-style-type: none;
+}
+.mediaLinks
+{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.mediaLinks a
+{
+    margin: 0.2rem;
+}
+/* End of styling for navbar */
+
 main {
     background: var(--background);
     width: 100%;
@@ -457,7 +561,11 @@ main hr
     }
     .timer h2
     {
+
+        font-size: 3.8vw;
+
         /* font-size: 4.1vw; */
+
         width: 100%;
         margin-bottom: 3rem;
     }
