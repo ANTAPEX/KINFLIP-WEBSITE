@@ -1,6 +1,3 @@
-/* FAQS Styles
-               by Precious Victory ************************************************/
-
 /* General 
 **********************************/
 *{
@@ -18,17 +15,22 @@
     --border: #FFFBFF;
 }
 
+body
+{
+    background: var(--background);
+}
 main {
     background: var(--background);
-    
-    /* Auto layout */
+    width: 100%;
+    /* overflow: auto; */
 
-    display: flex;
-    flex-direction: column;
+    /* Auto layout */
     justify-content: center;
     align-items: center;
-    padding: 24px 12px;
-    gap: 24px;
+    display: block;
+    padding-top: 0;
+    padding-inline: 6vw;
+    /* gap: 24px; */
 /* 
     width: 1255px;
     height: 296px; */
@@ -41,21 +43,373 @@ main {
 }
 
 
-/* Max-width - 1440px 
-*************************************************/
-@media screen and (max-width: 1440px){
+/*styling for mobile view*/
+.heading
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    padding-inline: 7vw;
+    /* padding-block: 5vh; */
+    padding-top: 6vh;
+    margin-bottom: 2rem;
+    align-items: center;
+    background: var(--box3);
+}
+.timer
+{
+    width: 100%;
+    height: 8.5rem;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0px;
+} 
+.timer h2
+{
+    width: 100%;
+    font-size: 5.5vw;
+    text-align: center;
+    line-height: 0;
+    display: block;
+    height: auto;
+    margin-bottom: 5.5vh;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    color: var(--yellow);
+    align-items: center;
+    justify-content: center;
+}
+.comp
+{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 12px;
+    width: 100%;
+    margin: 0 auto;
+}
+.row 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 100%;
+    height: auto;
+}
+.col 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0.5rem;
+}
+.row h3 
+{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 0px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.comp .box
+{
+    padding-inline: 0.5rem;
+    padding-block: 0.2rem;
+    justify-content: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    background: var(--box-color);
+}
+.comp .box-
+{
+    padding-inline: 0rem;
+    padding-block: 0.2rem;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    background: var(--box2);
+}
+.comp p
+{
+    width: 100%;
+    font-size: 6vw;
+    text-align: center;
+    margin: auto;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+.comp h3
+{
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 0rem;
+}
+main hr
+{
+    display: block;
+    border-color: var(--yellow);
+    /* margin-bottom: 2rem; */
+}
+
+/* FAQ Section  */
+.FAQ
+{
+    width: 100%;
+    display: block;
+    padding: 0px;
+    gap: 24px;
+}
+.FAQ .header {
+    display: block;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    margin-bottom: 1rem;
+}
+.FAQ .header h2
+{
+    font-size: 6vw;
+    height: auto;
+    /* line-height: 4.5rem; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--yellow);
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 40px; */
+    text-align: center;
+}
+.FAQ .header p
+{
+    font-size: 4.2vw;
+    height: auto;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+}
+.FAQ .header p
+{
+    display: none;
+}
+.FAQ .header .mobile
+{
+    display: block;
+}
+
+/* FAQ Question Section  */
+.questions
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 0rem;
+    display: block;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+}
+.component
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: center;
+    align-items: flex-start;
+    /* padding: 12px 24px; */
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+.frame
+{
+    width: 100%;
+    height: auto;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3px;
+}
+.frame h3
+{
+    font-size: 4.5vw;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.chevron .arrow {
+    /* Icon */
+    margin-top: 6px;
+}
+.answer
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: flex-start;
+    /* padding: 12px 24px; */
+    padding: 0.5rem 1rem;
+    gap: 8px;
+    border: 1px solid #FFFBFF;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+}
+.answer .icon {
+    /* Icon */
+
+    left: 25%;
+    right: 25%;
+    top: 37.5%;
+    bottom: 37.5%;
+    border: 2px solid #FFFFFF;
+    transform: rotate(-90deg);
+
+}
+
+.chevron- {
+    transform: rotate(90deg);
+}
+
+.answer p {
+    width: 100%;
+    height: auto;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.5vw;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #F8EFE7;
+}
+.chevron- .arrow {
+    /* Icon */
+    margin-left: 10px;
+}
+/* End of styling for mobile view screen  */
+
+
+/* Styling for Tablet screen  */
+@media  screen and (min-width: 375px) {
+    main
+    {
+        width: 100%;
+        padding-inline: 12vw;
+    }
+    .heading
+    {
+        width: 100%;
+        padding-inline: 20vw;
+        padding-top: 4rem;
+    }
+    .timer h2
+    {
+        font-size: 4.1vw;
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .col
+    {
+        margin-bottom: 1rem;
+    }
+    main hr
+    {
+        display: none;
+    }
+    .FAQ .header h2
+    {
+        color: #FFFFFF;
+        font-size: 2.5rem;
+    }
+    .FAQ .header p
+    {
+        font-size: 1.5rem;
+        display: block;
+    }
+    .FAQ .header .mobile
+    {
+        display: none;
+    }
+    .questions
+    {
+        padding-inline: 15vw;
+    }
+    .questions h3
+    {
+        font-size: 1.5rem;
+    }
+    .answer .frame h3
+    {
+        font-size: 1.5rem;
+    }
+    .answer p
+    {
+        font-size: 1rem;
+    }
+}
+
+/* Desktop Style  */
+/* FAQS Styles
+               by Precious Victory ************************************************/
+@media screen and (min-width: 834px){
     /* heading section 
     *****************************************/
+    main
+    {
+        padding-bottom: 7rem;
+    }
     .heading {
         /* Auto layout */
 
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 24px 12px;
+        /* padding: 24px 12px; */
+        padding-inline: 20vw;
+        padding-top: 5rem;
         gap: 74px;
 
-        width: 90%;
+        width: 100%;
         height: 248px;
 
         background: var(--box3);
@@ -86,22 +440,23 @@ main {
     }
 
     .timer h2{
-        width: 405px;
-        height: 104px;
+        /* width: 405px; */
+        /* height: 104px; */
 
         /* material-theme/display/medium */
 
         font-family: 'Lora';
         font-style: normal;
         font-weight: 400;
-        font-size: 45px;
-        line-height: 52px;
+        /* font-size: 4px; */
+        /* line-height: 52px; */
         text-align: center;
+        margin-bottom: 2.5rem;
         
         /* Primary */
 
         color: var(--yellow);
-        margin: 0 auto;
+        /* margin: 0 auto; */
 
         display: flex;
         align-items: center;
@@ -126,7 +481,7 @@ main {
         gap: 12px;
 
         width: 288px;
-        height: 84px;
+        /* height: 84px; */
         margin: 0 auto;
     }
 
@@ -139,7 +494,7 @@ main {
         gap: 4px;
 
         width: 88px;
-        height: 84px;
+        /* height: 84px; */
 
         /* Inside auto layout */
 
@@ -156,7 +511,7 @@ main {
         gap: 4px;
 
         width: 88px;
-        height: 64px;
+        /* height: 64px; */
     }
 
     .row h3 {
@@ -169,7 +524,7 @@ main {
         font-style: normal;
         font-weight: 500;
         font-size: 12px;
-        line-height: 16px;
+        line-height: 0px;
         /* identical to box height, or 133% */
 
         text-align: center;
@@ -227,6 +582,11 @@ main {
         color: #FFFFFF;
     }
 
+    hr
+    {
+        display: none;
+    }
+
     /* FAQS section 
     *****************************************/
     .FAQ {
@@ -268,7 +628,7 @@ main {
 
     .FAQ .header h2 {
         /* width: 1240px; */
-        height: 40px;
+        /* height: 40px; */
 
         /* material-theme/headline/large */
 
@@ -276,7 +636,7 @@ main {
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
-        line-height: 40px;
+        /* line-height: 40px; */
         /* identical to box height, or 125% */
 
         text-align: center;
@@ -284,6 +644,7 @@ main {
         /* material-theme/ref/neutral/neutral100 */
 
         color: #FFFFFF;
+        
     }
 
     .FAQ .header p {
@@ -311,7 +672,7 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0px;
+        padding-inline: 23vw;
         gap: 24px;
 
         /* width: 1240px; */
@@ -324,7 +685,6 @@ main {
         align-self: stretch;
         flex-grow: 0;
     }
-
     .component {
         /* Auto layout */
 
@@ -335,8 +695,8 @@ main {
         padding: 12px 24px;
         gap: 8px;
 
-        width: 397px;
-        height: 52px;
+        /* width: 397px;
+        height: 52px; */
 
         border: 1px solid var(--border);
         border-radius: 8px;
@@ -350,8 +710,8 @@ main {
 
     .component p {
         display: none;
-        width: 349px;
-        height: 32px;
+        /* width: 349px;
+        height: 32px; */
 
         font-family: 'Nunito';
         font-style: normal;
@@ -380,8 +740,8 @@ main {
         padding: 0px;
         gap: 3px;
 
-        width: 349px;
-        height: 28px;
+        /* width: 349px;
+        height: 28px; */
 
 
         /* Inside auto layout */
@@ -442,16 +802,17 @@ main {
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        padding: 12px 24px;
+        /* padding: 12px 24px; */
         gap: 8px;
 
-        width: 397px;
-        height: 108px;
+        /* width: 397px;
+        height: 108px; */
         left: 20px;
         top: 72px;
 
         border: 1px solid #FFFBFF;
         border-radius: 8px;
+        margin-bottom: 3rem;
 
     }
 
@@ -482,8 +843,8 @@ main {
     }
 
     .answer p {
-        width: 349px;
-        height: 48px;
+        /* width: 349px;
+        height: 48px; */
 
         /* material-theme/title/medium */
 
@@ -512,14 +873,4 @@ main {
     }
 }
 
-/* Max-width - 834px 
-*************************************************/
-@media screen and (max-width:834px) {
-    
-}
-
-/* Max-width - 375px - Mobile Screen
-*************************************************/
-@media screen and (max-width:375px) {
-    
-}
+/* Ending of Styles by Precious Victory */
