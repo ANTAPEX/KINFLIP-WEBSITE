@@ -6,7 +6,7 @@ This project is a basic conference website that shows details about the agenda o
 ## Basic Website Structure ䷦
 * Landing Page
 * About Us Page
-* COntact Us Page
+* Contact Us Page
 * FAQ Page
 * Registration Page
 
@@ -26,9 +26,9 @@ This project is a basic conference website that shows details about the agenda o
  Step 1: Click on Fork at the top right corner Step; </br>
  Step 2: Clone your forked repository; </br>
  Step 3: cd into the cloned folder; </br>
- Step 4: comit your changes to your forked repository </br>
- Step 5: contribute and create a pull-request  </br>
- Step 6: wait for your pull-request to be merged.
+ Step 4: Commit your changes to your forked repository; </br>
+ Step 5: Contribute and create a pull-request;  </br>
+ Step 6: Wait for your pull-request to be merged.
 
 
 
