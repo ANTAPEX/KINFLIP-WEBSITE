@@ -9,8 +9,33 @@
     <script src="script.js"></script>
     <title>KINFLIP</title>
 </head>
-<body class="body">
-    <nav>
+    <title>KINFLIP | FAQS</title>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="Home.html">
+            <img src="Images\kinflip logo main 1.svg" alt="Kinflip logo" class="nav__logo" id="logo" width="175"/>
+            </a>
+            <ul class="nav_links">
+                <li class="nav_item"><a class="nav__link" href="Home.html">HOME</a></li>
+                <li class="nav_item"><a class="nav__link" href="#">CONTACT US</a></li>
+                <li class="nav_item"><a class="nav__link" href="#">ABOUT US</a></li>
+                <li class="nav_item"><a class="nav__link" href="Faqs.html">FAQ</a></li>
+                <li class="nav_item">
+                <a class="nav__link btn_a" href="#" id="attendee_reg">Register as an Attendee</a>
+                </li>
+                <li class="nav_item"><a class="nav__link btn_s" href="Ras.html" id="speaker_reg">Register as a Speaker</a></li>
+            </ul>
+        </nav>
+        
+        <!-- <div class="second-child">
+            <a href="#" id="tab_reg_btn" class="tablet">Register &nbsp;&nbsp; <i class="fas fa-caret-down" style="color: #121212"></i></a>
+            <i style="color: #FFBC01; font-size: 2rem" class="fas fa-bars"></i>    
+        </div> -->
+      </header>
+
+      <!-- Structure for Navbar - Michael Omoniyi -->
+      <nav>
         <div class="navContainer">
             <div class="navLogo">
                 <a href="Home.html">
@@ -26,9 +51,11 @@
                 </ul>
             </div>
             <div class="navButtonsLink">
-                <a href="#">Register as an Attendee</a>
-                <a href="#">Register as a Speaker</a>
-                <a href="#">Register</a>
+                <a href="#" id="registerDropdown" onclick="registerDropdown()">Register</a>
+                <div class="dropdown">
+                    <a href="#">Register as an Attendee</a>
+                    <a href="#">Register as a Speaker</a>
+                </div>
                 <img src="Images/Navicon.jpeg" id="openNavDisplay" onclick="openNavDisplay()" alt="Navicon">
             </div>
         </div>
@@ -59,35 +86,9 @@
             </div>
         </div>
     </nav>
-=======
-    <title>KINFLIP | FAQS</title>
-</head>
-<body>
-    <header>
-        <nav class="nav">
-            <a href="Home.html">
-            <img src="Images\kinflip logo main 1.svg" alt="Kinflip logo" class="nav__logo" id="logo" width="175"/>
-            </a>
-            <ul class="nav_links">
-                <li class="nav_item"><a class="nav__link" href="Home.html">HOME</a></li>
-                <li class="nav_item"><a class="nav__link" href="#">CONTACT US</a></li>
-                <li class="nav_item"><a class="nav__link" href="#">ABOUT US</a></li>
-                <li class="nav_item"><a class="nav__link" href="Faqs.html">FAQ</a></li>
-                <li class="nav_item">
-                <a class="nav__link btn_a" href="#" id="attendee_reg">Register as an Attendee</a>
-                </li>
-                <li class="nav_item"><a class="nav__link btn_s" href="Ras.html" id="speaker_reg">Register as a Speaker</a></li>
-            </ul>
-        </nav>
-        
-        <!-- <div class="second-child">
-            <a href="#" id="tab_reg_btn" class="tablet">Register &nbsp;&nbsp; <i class="fas fa-caret-down" style="color: #121212"></i></a>
-            <i style="color: #FFBC01; font-size: 2rem" class="fas fa-bars"></i>    
-        </div> -->
-      </header>
+    <!-- End of structure for Navbar -->
 
-
-    <main>
+    <main onclick="closeAllNavDropdown()">
         <section class="heading">
             <div class="timer">
                 <h2>FFI CONFERENCE</h2>
