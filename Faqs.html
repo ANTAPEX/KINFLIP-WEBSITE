@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Faqs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="CSS/Faqs.css">
 
-    <script src="script.js"></script>
-    <title>KINFLIP</title>
+    <script src="Scripts/script.js"></script>
+    <title>KINFLIP | FAQS</title>
 </head>
 <body>
     <nav>
@@ -59,10 +61,7 @@
             </div>
         </div>
     </nav>
-=======
-    <title>KINFLIP | FAQS</title>
-</head>
-<body>
+
     <header>
         <nav class="nav">
             <a href="Home.html">
@@ -78,12 +77,19 @@
                 </li>
                 <li class="nav_item"><a class="nav__link btn_s" href="Ras.html" id="speaker_reg">Register as a Speaker</a></li>
             </ul>
+            <div class="second_child">
+                <div>
+                <a href="#" id="tab_reg_btn" onclick="registerlinks()" class="tablet">Register &nbsp;&nbsp; <i class="fas fa-caret-down" id="arrow" style="color: #121212"></i></a>
+                <ul class="btn_list">
+                    <li class="nav_item">
+                        <a class="nav__link btn" href="#" id="attendee_reg">Register as an Attendee</a>
+                    </li>
+                    <li class="nav_item"><a class="nav__link btn" href="Ras.html" id="speaker_reg">Register as a Speaker</a></li>
+                </ul>
+                </div>
+                <i style="color: #FFBC01; font-size: 2rem" id="open_nav" onclick="open_nav()" alt="Navbar" class="fas fa-bars"></i>    
+            </div>
         </nav>
-        
-        <!-- <div class="second-child">
-            <a href="#" id="tab_reg_btn" class="tablet">Register &nbsp;&nbsp; <i class="fas fa-caret-down" style="color: #121212"></i></a>
-            <i style="color: #FFBC01; font-size: 2rem" class="fas fa-bars"></i>    
-        </div> -->
       </header>
 
 
@@ -141,42 +147,56 @@
             </div>
 
             <div class="questions">
-                <div class="component">
+                <div class="component one">
                     <div class="frame">
                         <h3>Where is the location?</h3>
-                        <div class="chevron">
-                            <img src="Images/Icon.png" alt="Icon" class="arrow">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="component">
-                    <div class="frame">
-                        <h3>Where is the location?</h3>
-                        <div class="chevron">
-                            <img src="Images/Icon.png" alt="Icon" class="arrow">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="component">
-                    <div class="frame">
-                        <h3>Where is the location?</h3>
-                        <div class="chevron">
-                            <img src="Images/Icon.png" alt="Icon" class="arrow">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="answer">
-                    <div class="frame">
-                        <h3>Where is the location?</h3>
-                        <div class="chevron-">
+                        <div class="chevron" id="arrow_right" onclick="arrowDown('one')">
                             <img src="Images/Icon.png" alt="Icon" class="arrow">
                         </div>
                     </div>
                     <p>The location for this powerful conference is at Obafemi Awolowo University, Ile Ife, Nigeria.</p>
                 </div>
+
+                <div class="component two">
+                    <div class="frame">
+                        <h3>Where is the location?</h3>
+                        <div class="chevron" id="arrow_right" onclick="arrowDown('two')">
+                            <img src="Images/Icon.png" alt="Icon" class="arrow">
+                        </div>
+                    </div>
+                    <p>The location for this powerful conference is at Obafemi Awolowo University, Ile Ife, Nigeria.</p>
+                </div>
+
+                <div class="component three">
+                    <div class="frame">
+                        <h3>Where is the location?</h3>
+                        <div class="chevron" id="arrow_right" onclick="arrowDown('three')" alt="Icon">
+                            <img src="Images/Icon.png" class="arrow">
+                        </div>
+                    </div>
+                    <p>The location for this powerful conference is at Obafemi Awolowo University, Ile Ife, Nigeria.</p>
+                </div>
+
+                <div class="component four">
+                    <div class="frame">
+                        <h3>Where is the location?</h3>
+                        <div class="chevron" id="arrow_right" onclick="arrowDown('four')" alt="Icon">
+                            <img src="Images/Icon.png" class="arrow">
+                        </div>
+                    </div>
+                    <p>The location for this powerful conference is at Obafemi Awolowo University, Ile Ife, Nigeria.</p>
+                </div>
+
+                <div class="component five">
+                    <div class="frame">
+                        <h3>Where is the location?</h3>
+                        <div class="chevron" id="arrow_right" onclick="arrowDown('five')" alt="Icon">
+                            <img src="Images/Icon.png" class="arrow">
+                        </div>
+                    </div>
+                    <p>The location for this powerful conference is at Obafemi Awolowo University, Ile Ife, Nigeria.</p>
+                </div>
+
             </div>
         </section>
     </main>
