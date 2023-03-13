@@ -225,6 +225,11 @@ a:visited {
     border-radius: 4px;
 }
 
+.nav_links .nav__item:hover {
+    background-color: var(--yellow);
+    color: black;
+}
+
 .btn_a {
     /* Auto layout */
 
@@ -252,6 +257,7 @@ a:visited {
 
 .btn_s {
     box-sizing: border-box;
+    color: var(--yellow);
 
 /* Auto layout */
 

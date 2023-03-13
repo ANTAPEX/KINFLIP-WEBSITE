@@ -67,3 +67,35 @@ let arrowDown = (className) =>
         document.querySelector("." + className + ' .chevron').style.transform = 'rotate(90deg)';
     }
 }
+
+
+// Adding the countdown functionality
+let eventDate = new Date('May 20, 2023 12:00:00').getTime(); // This is sample date - it can be changed
+
+let countdown = setInterval(() => {
+    let now = new Date().getTime(); 
+
+    let left = eventDate - now;
+    
+    var days = Math.floor(left / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((left % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((left % (1000 * 60 * 60)) / (1000 * 60));
+    // var seconds = Math.floor((left % (1000 * 60)) / 1000);
+
+    // Updating the time on THE faqs page
+    let diff = (days) + " " + (hours) + " " + (minutes);;
+    
+    let timeleft = diff.split(" ")
+
+    let day = timeleft[0];
+    document.querySelector(".a").textContent = day[0];
+    document.querySelector(".b").textContent = day[1];
+
+    let hour = timeleft[1];
+    document.querySelector(".c").textContent = hour[0];
+    document.querySelector(".d").textContent = hour[1];
+
+    let min = timeleft[2];
+    document.querySelector(".e").textContent = min[0];
+    document.querySelector(".f").textContent = min[1];
+}, 1000);
