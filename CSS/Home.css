@@ -58,7 +58,8 @@ a{
 		background: var(--bg);
 		padding: 1rem;
 		color: var(--highl);
-		display: flex; 
+		/* display: flex;  */
+    display: none;
 		justify-content: space-between;
 		border: none;
 		height: 4rem;
