@@ -18,6 +18,10 @@ let registerDropdown = () =>
 {
     document.querySelector('.dropdown').style.display = 'block'
 }
+let closeAllNavbar = () =>
+{
+    document.querySelector('.dropdown').style.display = 'none'
+}
 
 // Register Drop down styles
 let registerlinks = () =>
