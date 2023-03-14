@@ -2,6 +2,7 @@
 **********************************/
 *{
     box-sizing: border-box;
+    list-style-type: none;
     margin: 0;
     padding: 0;
 }
@@ -18,111 +19,8 @@
 body
 {
     background: var(--background);
-}
-
-/* Styling for Navbar */
-.navContainer
-{
     width: 100%;
-    height: auto;
-    background-color: var(--box3);
-    /* padding-inline: 1.7rem;
-    padding-block: 1rem; */
-    padding: 1rem;
-    padding-inline: 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    /* position: sticky; */
 }
-.navLinksContainer
-{
-    display: none;
-}
-.navLogo img
-{
-    width: 6rem;
-}
-.navButtonsLink a
-{
-    display: none;
-}
-.navButtonsLink img
-{
-    width: 1rem;
-}
-.navDisplay
-{
-    width: 100%;
-    background-color: var(--background);
-    padding: 1.5rem;
-    position: absolute;
-    height: 93vh;
-    right: 0;
-    padding-top: 0.5rem;
-    z-index: 2;
-    display: none;
-    overflow: auto;
-    
-}
-.closeNavDisplay img
-{
-    width: 1rem;
-    float: right;
-    margin-bottom: 0.5rem;
-}
-.navSearch
-{
-    width: 100%;
-    display: flex;
-    border-style: solid;
-    border-color: #FFFFFF;
-    border-top: none;
-    border-right: none;
-    border-width: 0.1rem;
-    margin-bottom: 2rem;
-}
-.navSearch img
-{
-    width: 20%;
-}
-.navSearch input
-{
-    width: 80%;
-    outline: 0;
-    padding: 0.5rem;
-    background-color: var(--box2);
-    border-width: 0;
-    color: white;
-}
-.displayLinks
-{
-    width: 100%;
-    margin-bottom: 4rem;
-}
-.displayLinks a
-{
-    text-decoration: none;
-    color: #FFFFFF;
-    font-family: 'Nunito';
-}
-.displayLinks li
-{
-    margin-bottom: 2rem;
-    list-style-type: none;
-}
-.mediaLinks
-{
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1rem;
-}
-.mediaLinks a
-{
-    margin: 0.2rem;
-}
-/* End of styling for navbar */
 
 main {
     background: var(--background);
@@ -167,7 +65,8 @@ a:visited {
 .nav {
     /* Auto layout */
 
-    display: flex;
+    /* display: flex; */
+    display: none;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -371,7 +270,134 @@ a.btn_s{
 }
 
 
-/*styling for mobile view*/
+/*styling for mobile view - Michael Omoniyi*/
+
+/* Styling for Navbar - Michael Omoniyi*/
+.navContainer
+{
+    width: 100%;
+    height: auto;
+    background-color: var(--box3);
+    /* padding-inline: 1.7rem;
+    padding-block: 1rem; */
+    padding: 1rem;
+    padding-inline: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    /* position: sticky; */
+}
+.navLinksContainer
+{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.navLogo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.navLogo img
+{
+    width: 6rem;
+}
+.navButtonsLink
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.navButtonsLink a
+{
+    display: none;
+}
+.navButtonsLink img
+{
+    width: 1rem;
+}
+.navDisplay
+{
+    width: 100%;
+    background-color: var(--background);
+    padding: 1.5rem;
+    position: absolute;
+    height: 93vh;
+    right: 0;
+    padding-top: 0.5rem;
+    z-index: 2;
+    display: none;
+    overflow: auto;
+    
+}
+.closeNavDisplay i
+{
+    /* width: 1rem; */
+    float: right;
+    margin-bottom: 0.5rem;
+}
+.navSearch
+{
+    width: 100%;
+    display: flex;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-top: none;
+    border-right: none;
+    border-width: 0.1rem;
+    margin-bottom: 2rem;
+}
+.navSearch img
+{
+    width: 20%;
+}
+.navSearch input
+{
+    width: 80%;
+    outline: 0;
+    padding: 0.5rem;
+    background-color: var(--box2);
+    border-width: 0;
+    color: white;
+}
+.displayLinks
+{
+    width: 100%;
+    margin-bottom: 4rem;
+}
+.displayLinks a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Nunito';
+}
+.displayLinks li
+{
+    margin-bottom: 2rem;
+    list-style-type: none;
+}
+.mediaLinks
+{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.mediaLinks a
+{
+    margin: 0.2rem;
+}
+/* End of styling for navbar */
 .heading
 {
     width: 100%;
@@ -398,7 +424,7 @@ a.btn_s{
 .timer h2
 {
     width: 100%;
-    /* font-size: 5.5vw; */
+    font-size: 5.5vw;
     text-align: center;
     line-height: 0;
     display: block;
@@ -616,8 +642,61 @@ main hr
 /* End of styling for mobile view screen  */
 
 
-/* Styling for Tablet screen  */
+/* Styling for Tablet screen - Michael Omoniyi */
 @media  screen and (min-width: 375px) {
+    .navContainer
+    {
+        padding-inline: 3rem;
+        padding-block: 1rem;
+        width: 100%;
+    }
+    .navLogo
+    {
+        display: block;
+    }
+    .navLogo img
+    {
+        width: 10rem;
+    }
+    .navButtonsLink
+    {
+        display: flex;
+    }
+    .navButtonsLink img
+    {
+        width: 2rem;
+    }
+    .navButtonsLink #registerDropdown
+    {
+        display: inline-block;
+        border: solid var(--yellow);
+        border-radius: 10px;
+        padding-inline: 2rem;
+        padding-block: 0.4rem;
+        background-color: var(--yellow);
+        margin-right: 1.5rem;
+        margin-left: 1rem;
+    }
+    .dropdown
+    {
+        display: none;
+        position: absolute;
+        top: 5rem;
+        /* right: 10vw; */
+    }
+    .dropdown a
+    {
+        display: block;
+        background-color: rgba(0, 0, 0, 1);
+        border-width: 1px;
+        margin-bottom: 1rem;
+        display: inline-block;
+        border: solid var(--yellow);
+        border-radius: 10px;
+        padding-inline: 4rem;
+        padding-block: 1rem;
+        margin-right: 1.5rem;
+    }
     main
     {
         width: 100%;
@@ -671,11 +750,110 @@ main hr
         font-size: 3vw;
     }
 }
+/* End of styling for Tablet scree */
 
 /* Desktop Style  */
 /* FAQS Styles
                by Precious Victory ************************************************/
 @media screen and (min-width: 834px){
+    /* Styling for Desktop Navbar - Michael Omoniyi */
+    .navContainer
+    {
+        /* height: auto; */
+        min-height: 3rem;
+        justify-content: space-between;
+        width: 100%;
+        overflow: auto;
+    }
+    .navLogo
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .navLogo img
+    {
+        display: block;
+        /* margin-top: 1rem; */
+        /* transform: translate(0%, 50%); */
+    }
+    .navLinksContainer
+    {
+        display: block;
+        /* margin-top: 1.3rem; */
+        margin-inline: 1.5rem;
+    }
+    .navLinksContainer ul
+    {
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        gap: 3.5vw;
+        /* transform: translate(0%, 50%); */
+    }
+    .navLinksContainer ul a:hover
+    {
+        color: var(--yellow);
+    }
+    .navButtonsLink
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .navButtonsLink i
+    {
+        display: none;
+    }
+    .navButtonsLink #registerDropdown
+    {
+        display: none;
+    }
+    .navButtonsLink a
+    {
+        display: block;
+        text-align: center;
+    }
+    .dropdown
+    {
+        display: flex;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .dropdown a
+    {
+        display: block;
+        padding-inline: 2rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .dropdown a:hover
+    {
+        background-color: var(--yellow);
+        color: #FFFFFF;
+    }
+    .dropdown a:first-of-type
+    {
+        background-color: var(--yellow);
+        color: #FFFFFF;
+    }
+    .dropdown a:first-of-type:hover
+    {
+        background-color: rgba(0, 0, 0, 1);
+        color: var(--yellow);
+    }
+    /* End of Styling for desktop Navbar  */
+
     /* heading section 
     *****************************************/
     main
