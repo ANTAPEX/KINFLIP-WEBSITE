@@ -20,6 +20,7 @@ This project is a basic conference website that shows details about the agenda o
 | [Aderonmu Judah](https://github.com/aderonmujudah) | Frontend Development |
 | [Abiodun-Omoniyi Victory](https://github.com/preciousvictory) | Frontend Development |
 | [Michael Omoniyi](https://github.com/MichaelOmoniyi) | Frontend Development |
+| [RichGod Usen](https://github.com/RichGod93) | Frontend Development |
 
 
 ## To Contribute here(Version control) 🛠️
