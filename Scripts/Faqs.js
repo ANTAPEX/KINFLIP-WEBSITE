@@ -14,6 +14,14 @@ let closeNavDisplay = () =>
     document.querySelector('.body').style.height = 'auto'
     document.querySelector('.body').style.overflow = 'auto'
 }
+let registerDropdown = () =>
+{
+    document.querySelector('.dropdown').style.display = 'block'
+}
+let closeAllNavbar = () =>
+{
+    document.querySelector('.dropdown').style.display = 'none'
+}
 
 // Register Drop down styles
 let registerlinks = () =>

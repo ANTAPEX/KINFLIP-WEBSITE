@@ -11,7 +11,8 @@
  
     <title>KINFLIP | FAQS</title>
 </head>
-<body>
+<body class="body">
+    <!-- Navbar structure - Michael Omoniyi -->
     <nav>
         <div class="navContainer">
             <div class="navLogo">
@@ -28,15 +29,19 @@
                 </ul>
             </div>
             <div class="navButtonsLink">
-                <a href="#">Register as an Attendee</a>
-                <a href="#">Register as a Speaker</a>
-                <a href="#">Register</a>
-                <img src="/Images/Navicon.jpeg" id="openNavDisplay" onclick="openNavDisplay()" alt="Navicon">
+                <a href="#" id="registerDropdown" onclick="registerDropdown()">Register</a>
+                <div class="dropdown">
+                    <a href="#">Register as an Attendee</a>
+                    <a href="#">Register as a Speaker</a>
+                </div>
+                <!-- <img src="/Images/Navicon.jpeg" id="openNavDisplay" onclick="openNavDisplay()" alt="Navicon"> -->
+                <i style="color: #FFBC01; font-size: 2rem" id="openNavDisplay" onclick="openNavDisplay()" alt="Navbar" class="fas fa-bars"></i>
             </div>
         </div>
         <div class="navDisplay">
             <div class="closeNavDisplay">
-                <img src="/images/Navicon.jpeg" id="closeNavDisplay" onclick="closeNavDisplay()" alt="">
+                <!-- <img src="/images/Navicon.jpeg" id="closeNavDisplay" onclick="closeNavDisplay()" alt=""> -->
+                <i style="color: #FFBC01; font-size: 2rem" id="closeNavDisplay" onclick="closeNavDisplay()" alt="Navbar" class="fas fa-bars"></i>
             </div>
             <div class="navSearch">
                 <input type="search" name="navSearch" id="navSearch">
@@ -61,6 +66,7 @@
             </div>
         </div>
     </nav>
+    <!-- End of navbar section  -->
 
     <header>
         <nav class="nav">
@@ -95,7 +101,7 @@
       </header>
 
 
-    <main>
+    <main id="closeAllNavbar">
         <section class="heading">
             <div class="timer">
                 <h2 class="con">FFI CONFERENCE</h2>
